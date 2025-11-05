@@ -1,7 +1,7 @@
 <?php declare(strict_types = 1);
 
 return [
-	'lastFullAnalysisTime' => 1762353306,
+	'lastFullAnalysisTime' => 1762358322,
 	'meta' => array (
   'cacheVersion' => 'v12-linesToIgnore',
   'phpstanVersion' => '2.1.31',
@@ -9,26 +9,26 @@ return [
   array (
   ),
   'phpVersion' => 80414,
-  'projectConfig' => '{conditionalTags: {Larastan\\Larastan\\Rules\\NoEnvCallsOutsideOfConfigRule: {phpstan.rules.rule: %noEnvCallsOutsideOfConfig%}, Larastan\\Larastan\\Rules\\NoModelMakeRule: {phpstan.rules.rule: %noModelMake%}, Larastan\\Larastan\\Rules\\NoUnnecessaryCollectionCallRule: {phpstan.rules.rule: %noUnnecessaryCollectionCall%}, Larastan\\Larastan\\Rules\\NoUnnecessaryEnumerableToArrayCallsRule: {phpstan.rules.rule: %noUnnecessaryEnumerableToArrayCalls%}, Larastan\\Larastan\\Rules\\OctaneCompatibilityRule: {phpstan.rules.rule: %checkOctaneCompatibility%}, Larastan\\Larastan\\Rules\\UnusedViewsRule: {phpstan.rules.rule: %checkUnusedViews%}, Larastan\\Larastan\\Rules\\NoMissingTranslationsRule: {phpstan.rules.rule: %checkMissingTranslations%}, Larastan\\Larastan\\Rules\\ModelAppendsRule: {phpstan.rules.rule: %checkModelAppends%}, Larastan\\Larastan\\Rules\\NoPublicModelScopeAndAccessorRule: {phpstan.rules.rule: %checkModelMethodVisibility%}, Larastan\\Larastan\\Rules\\NoAuthFacadeInRequestScopeRule: {phpstan.rules.rule: %checkAuthCallsWhenInRequestScope%}, Larastan\\Larastan\\Rules\\NoAuthHelperInRequestScopeRule: {phpstan.rules.rule: %checkAuthCallsWhenInRequestScope%}, Larastan\\Larastan\\ReturnTypes\\Helpers\\EnvFunctionDynamicFunctionReturnTypeExtension: {phpstan.broker.dynamicFunctionReturnTypeExtension: %generalizeEnvReturnType%}, Larastan\\Larastan\\ReturnTypes\\Helpers\\ConfigFunctionDynamicFunctionReturnTypeExtension: {phpstan.broker.dynamicFunctionReturnTypeExtension: %checkConfigTypes%}, Larastan\\Larastan\\ReturnTypes\\ConfigRepositoryDynamicMethodReturnTypeExtension: {phpstan.broker.dynamicMethodReturnTypeExtension: %checkConfigTypes%}, Larastan\\Larastan\\ReturnTypes\\ConfigFacadeCollectionDynamicStaticMethodReturnTypeExtension: {phpstan.broker.dynamicStaticMethodReturnTypeExtension: %checkConfigTypes%}, Larastan\\Larastan\\Rules\\ConfigCollectionRule: {phpstan.rules.rule: %checkConfigTypes%}}, parameters: {universalObjectCratesClasses: [Illuminate\\Http\\Request, Illuminate\\Support\\Optional], earlyTerminatingFunctionCalls: [abort, dd], mixinExcludeClasses: [Eloquent], bootstrapFiles: [bootstrap.php], checkOctaneCompatibility: false, noEnvCallsOutsideOfConfig: true, noModelMake: true, noUnnecessaryCollectionCall: true, noUnnecessaryCollectionCallOnly: [], noUnnecessaryCollectionCallExcept: [], noUnnecessaryEnumerableToArrayCalls: false, squashedMigrationsPath: [], databaseMigrationsPath: [], disableMigrationScan: false, disableSchemaScan: false, configDirectories: [], viewDirectories: [], translationDirectories: [], checkModelProperties: false, checkUnusedViews: false, checkMissingTranslations: false, checkModelAppends: true, checkModelMethodVisibility: false, generalizeEnvReturnType: false, checkConfigTypes: false, checkAuthCallsWhenInRequestScope: false, featureToggles: {bleedingEdge: true, checkNonStringableDynamicAccess: true, checkParameterCastableToNumberFunctions: true, skipCheckGenericClasses: {_prevent_merging: true}, stricterFunctionMap: true, reportPreciseLineForUnusedFunctionParameter: true, checkPrintfParameterTypes: true, internalTag: true, newStaticInAbstractClassStaticMethod: true, checkExtensionsForComparisonOperators: true, reportTooWideBool: true, rawMessageInBaseline: true, reportNestedTooWideType: false, assignToByRefForeachExpr: true, curlSetOptArrayTypes: true, tooWideImplicitThrows: true}, paths: [C:\\Users\\Em\\Herd\\portfolio26\\app, C:\\Users\\Em\\Herd\\portfolio26\\bootstrap\\app.php, C:\\Users\\Em\\Herd\\portfolio26\\config, C:\\Users\\Em\\Herd\\portfolio26\\database, C:\\Users\\Em\\Herd\\portfolio26\\public, C:\\Users\\Em\\Herd\\portfolio26\\routes], level: max, tmpDir: C:\\Users\\Em\\Herd\\portfolio26\\tmp\\phpstan}, rules: [Larastan\\Larastan\\Rules\\UselessConstructs\\NoUselessWithFunctionCallsRule, Larastan\\Larastan\\Rules\\UselessConstructs\\NoUselessValueFunctionCallsRule, Larastan\\Larastan\\Rules\\DeferrableServiceProviderMissingProvidesRule, Larastan\\Larastan\\Rules\\ConsoleCommand\\UndefinedArgumentOrOptionRule], services: {{class: Larastan\\Larastan\\Methods\\RelationForwardsCallsExtension, tags: [phpstan.broker.methodsClassReflectionExtension]}, {class: Larastan\\Larastan\\Methods\\ModelForwardsCallsExtension, tags: [phpstan.broker.methodsClassReflectionExtension]}, {class: Larastan\\Larastan\\Methods\\EloquentBuilderForwardsCallsExtension, tags: [phpstan.broker.methodsClassReflectionExtension]}, {class: Larastan\\Larastan\\Methods\\HigherOrderTapProxyExtension, tags: [phpstan.broker.methodsClassReflectionExtension]}, {class: Larastan\\Larastan\\Methods\\HigherOrderCollectionProxyExtension, tags: [phpstan.broker.methodsClassReflectionExtension]}, {class: Larastan\\Larastan\\Methods\\StorageMethodsClassReflectionExtension, tags: [phpstan.broker.methodsClassReflectionExtension]}, {class: Larastan\\Larastan\\Methods\\Extension, tags: [phpstan.broker.methodsClassReflectionExtension]}, {class: Larastan\\Larastan\\Methods\\ModelFactoryMethodsClassReflectionExtension, tags: [phpstan.broker.methodsClassReflectionExtension]}, {class: Larastan\\Larastan\\Methods\\RedirectResponseMethodsClassReflectionExtension, tags: [phpstan.broker.methodsClassReflectionExtension]}, {class: Larastan\\Larastan\\Methods\\MacroMethodsClassReflectionExtension, tags: [phpstan.broker.methodsClassReflectionExtension]}, {class: Larastan\\Larastan\\Methods\\ViewWithMethodsClassReflectionExtension, tags: [phpstan.broker.methodsClassReflectionExtension]}, {class: Larastan\\Larastan\\Properties\\ModelAccessorExtension, tags: [phpstan.broker.propertiesClassReflectionExtension]}, {class: Larastan\\Larastan\\Properties\\ModelPropertyExtension, tags: [phpstan.broker.propertiesClassReflectionExtension]}, {class: Larastan\\Larastan\\Properties\\HigherOrderCollectionProxyPropertyExtension, tags: [phpstan.broker.propertiesClassReflectionExtension]}, {class: Larastan\\Larastan\\ReturnTypes\\HigherOrderTapProxyExtension, tags: [phpstan.broker.dynamicMethodReturnTypeExtension]}, {class: Larastan\\Larastan\\ReturnTypes\\ContainerArrayAccessDynamicMethodReturnTypeExtension, tags: [phpstan.broker.dynamicMethodReturnTypeExtension], arguments: {className: Illuminate\\Contracts\\Container\\Container}}, {class: Larastan\\Larastan\\ReturnTypes\\ContainerArrayAccessDynamicMethodReturnTypeExtension, tags: [phpstan.broker.dynamicMethodReturnTypeExtension], arguments: {className: Illuminate\\Container\\Container}}, {class: Larastan\\Larastan\\ReturnTypes\\ContainerArrayAccessDynamicMethodReturnTypeExtension, tags: [phpstan.broker.dynamicMethodReturnTypeExtension], arguments: {className: Illuminate\\Foundation\\Application}}, {class: Larastan\\Larastan\\ReturnTypes\\ContainerArrayAccessDynamicMethodReturnTypeExtension, tags: [phpstan.broker.dynamicMethodReturnTypeExtension], arguments: {className: Illuminate\\Contracts\\Foundation\\Application}}, {class: Larastan\\Larastan\\Properties\\ModelRelationsExtension, tags: [phpstan.broker.propertiesClassReflectionExtension]}, {class: Larastan\\Larastan\\ReturnTypes\\ModelOnlyDynamicMethodReturnTypeExtension, tags: [phpstan.broker.dynamicMethodReturnTypeExtension]}, {class: Larastan\\Larastan\\ReturnTypes\\ModelFactoryDynamicStaticMethodReturnTypeExtension, tags: [phpstan.broker.dynamicStaticMethodReturnTypeExtension]}, {class: Larastan\\Larastan\\ReturnTypes\\ModelDynamicStaticMethodReturnTypeExtension, tags: [phpstan.broker.dynamicStaticMethodReturnTypeExtension]}, {class: Larastan\\Larastan\\ReturnTypes\\AppMakeDynamicReturnTypeExtension, tags: [phpstan.broker.dynamicStaticMethodReturnTypeExtension]}, {class: Larastan\\Larastan\\ReturnTypes\\AuthExtension, tags: [phpstan.broker.dynamicStaticMethodReturnTypeExtension]}, {class: Larastan\\Larastan\\ReturnTypes\\GuardDynamicStaticMethodReturnTypeExtension, tags: [phpstan.broker.dynamicStaticMethodReturnTypeExtension]}, {class: Larastan\\Larastan\\ReturnTypes\\AuthManagerExtension, tags: [phpstan.broker.dynamicMethodReturnTypeExtension]}, {class: Larastan\\Larastan\\ReturnTypes\\DateExtension, tags: [phpstan.broker.dynamicStaticMethodReturnTypeExtension]}, {class: Larastan\\Larastan\\ReturnTypes\\GuardExtension, tags: [phpstan.broker.dynamicMethodReturnTypeExtension]}, {class: Larastan\\Larastan\\ReturnTypes\\RequestFileExtension, tags: [phpstan.broker.dynamicMethodReturnTypeExtension]}, {class: Larastan\\Larastan\\ReturnTypes\\RequestRouteExtension, tags: [phpstan.broker.dynamicMethodReturnTypeExtension]}, {class: Larastan\\Larastan\\ReturnTypes\\RequestUserExtension, tags: [phpstan.broker.dynamicMethodReturnTypeExtension]}, {class: Larastan\\Larastan\\ReturnTypes\\EloquentBuilderExtension, tags: [phpstan.broker.dynamicMethodReturnTypeExtension]}, {class: Larastan\\Larastan\\ReturnTypes\\RelationCollectionExtension, tags: [phpstan.broker.dynamicMethodReturnTypeExtension]}, {class: Larastan\\Larastan\\ReturnTypes\\TestCaseExtension, tags: [phpstan.broker.dynamicMethodReturnTypeExtension]}, {class: Larastan\\Larastan\\Support\\CollectionHelper}, {class: Larastan\\Larastan\\ReturnTypes\\Helpers\\AuthExtension, tags: [phpstan.broker.dynamicFunctionReturnTypeExtension]}, {class: Larastan\\Larastan\\ReturnTypes\\Helpers\\CollectExtension, tags: [phpstan.broker.dynamicFunctionReturnTypeExtension]}, {class: Larastan\\Larastan\\ReturnTypes\\Helpers\\NowAndTodayExtension, tags: [phpstan.broker.dynamicFunctionReturnTypeExtension]}, {class: Larastan\\Larastan\\ReturnTypes\\Helpers\\ResponseExtension, tags: [phpstan.broker.dynamicFunctionReturnTypeExtension]}, {class: Larastan\\Larastan\\ReturnTypes\\Helpers\\ValidatorExtension, tags: [phpstan.broker.dynamicFunctionReturnTypeExtension]}, {class: Larastan\\Larastan\\ReturnTypes\\Helpers\\LiteralExtension, tags: [phpstan.broker.dynamicFunctionReturnTypeExtension]}, {class: Larastan\\Larastan\\ReturnTypes\\CollectionFilterRejectDynamicReturnTypeExtension, tags: [phpstan.broker.dynamicMethodReturnTypeExtension]}, {class: Larastan\\Larastan\\ReturnTypes\\CollectionWhereNotNullDynamicReturnTypeExtension, tags: [phpstan.broker.dynamicMethodReturnTypeExtension]}, {class: Larastan\\Larastan\\ReturnTypes\\NewModelQueryDynamicMethodReturnTypeExtension, tags: [phpstan.broker.dynamicMethodReturnTypeExtension]}, {class: Larastan\\Larastan\\ReturnTypes\\FactoryDynamicMethodReturnTypeExtension, tags: [phpstan.broker.dynamicMethodReturnTypeExtension]}, {class: Larastan\\Larastan\\Types\\AbortIfFunctionTypeSpecifyingExtension, tags: [phpstan.typeSpecifier.functionTypeSpecifyingExtension], arguments: {methodName: abort, negate: false}}, {class: Larastan\\Larastan\\Types\\AbortIfFunctionTypeSpecifyingExtension, tags: [phpstan.typeSpecifier.functionTypeSpecifyingExtension], arguments: {methodName: abort, negate: true}}, {class: Larastan\\Larastan\\Types\\AbortIfFunctionTypeSpecifyingExtension, tags: [phpstan.typeSpecifier.functionTypeSpecifyingExtension], arguments: {methodName: throw, negate: false}}, {class: Larastan\\Larastan\\Types\\AbortIfFunctionTypeSpecifyingExtension, tags: [phpstan.typeSpecifier.functionTypeSpecifyingExtension], arguments: {methodName: throw, negate: true}}, {class: Larastan\\Larastan\\ReturnTypes\\Helpers\\AppExtension, tags: [phpstan.broker.dynamicFunctionReturnTypeExtension]}, {class: Larastan\\Larastan\\ReturnTypes\\Helpers\\ValueExtension, tags: [phpstan.broker.dynamicFunctionReturnTypeExtension]}, {class: Larastan\\Larastan\\ReturnTypes\\Helpers\\StrExtension, tags: [phpstan.broker.dynamicFunctionReturnTypeExtension]}, {class: Larastan\\Larastan\\ReturnTypes\\Helpers\\TapExtension, tags: [phpstan.broker.dynamicFunctionReturnTypeExtension]}, {class: Larastan\\Larastan\\ReturnTypes\\StorageDynamicStaticMethodReturnTypeExtension, tags: [phpstan.broker.dynamicStaticMethodReturnTypeExtension]}, {class: Larastan\\Larastan\\Types\\GenericEloquentCollectionTypeNodeResolverExtension, tags: [phpstan.phpDoc.typeNodeResolverExtension]}, {class: Larastan\\Larastan\\Types\\ViewStringTypeNodeResolverExtension, tags: [phpstan.phpDoc.typeNodeResolverExtension]}, {class: Larastan\\Larastan\\Rules\\OctaneCompatibilityRule}, {class: Larastan\\Larastan\\Rules\\NoEnvCallsOutsideOfConfigRule, arguments: {configDirectories: %configDirectories%}}, {class: Larastan\\Larastan\\Rules\\NoModelMakeRule}, {class: Larastan\\Larastan\\Rules\\NoUnnecessaryCollectionCallRule, arguments: {onlyMethods: %noUnnecessaryCollectionCallOnly%, excludeMethods: %noUnnecessaryCollectionCallExcept%}}, {class: Larastan\\Larastan\\Rules\\NoUnnecessaryEnumerableToArrayCallsRule}, {class: Larastan\\Larastan\\Rules\\ModelAppendsRule}, {class: Larastan\\Larastan\\Rules\\NoPublicModelScopeAndAccessorRule}, {class: Larastan\\Larastan\\Types\\GenericEloquentBuilderTypeNodeResolverExtension, tags: [phpstan.phpDoc.typeNodeResolverExtension]}, {class: Larastan\\Larastan\\ReturnTypes\\AppEnvironmentReturnTypeExtension, tags: [phpstan.broker.dynamicMethodReturnTypeExtension], arguments: {class: Illuminate\\Foundation\\Application}}, {class: Larastan\\Larastan\\ReturnTypes\\AppEnvironmentReturnTypeExtension, tags: [phpstan.broker.dynamicMethodReturnTypeExtension], arguments: {class: Illuminate\\Contracts\\Foundation\\Application}}, {class: Larastan\\Larastan\\ReturnTypes\\AppFacadeEnvironmentReturnTypeExtension, tags: [phpstan.broker.dynamicStaticMethodReturnTypeExtension]}, {class: Larastan\\Larastan\\Types\\ModelProperty\\ModelPropertyTypeNodeResolverExtension, tags: [phpstan.phpDoc.typeNodeResolverExtension], arguments: {active: %checkModelProperties%}}, {class: Larastan\\Larastan\\Types\\CollectionOf\\CollectionOfTypeNodeResolverExtension, tags: [phpstan.phpDoc.typeNodeResolverExtension]}, {class: Larastan\\Larastan\\Properties\\MigrationHelper, arguments: {databaseMigrationPath: %databaseMigrationsPath%, disableMigrationScan: %disableMigrationScan%, parser: @migrationsParser, reflectionProvider: @reflectionProvider}}, iamcalSqlParser: {class: Larastan\\Larastan\\SQL\\IamcalSqlParser, autowired: false}, sqlParserFactory: {class: Larastan\\Larastan\\SQL\\SqlParserFactory, arguments: {iamcalSqlParser: @iamcalSqlParser}}, sqlParser: {type: Larastan\\Larastan\\SQL\\SqlParser, factory: [@sqlParserFactory, create]}, {class: Larastan\\Larastan\\Properties\\SquashedMigrationHelper, arguments: {schemaPaths: %squashedMigrationsPath%, disableSchemaScan: %disableSchemaScan%}}, {class: Larastan\\Larastan\\Properties\\ModelCastHelper}, {class: Larastan\\Larastan\\Properties\\ModelPropertyHelper}, {class: Larastan\\Larastan\\Rules\\ModelRuleHelper}, {class: Larastan\\Larastan\\Methods\\BuilderHelper, arguments: {checkProperties: %checkModelProperties%}}, {class: Larastan\\Larastan\\Rules\\RelationExistenceRule, tags: [phpstan.rules.rule]}, {class: Larastan\\Larastan\\Rules\\CheckDispatchArgumentTypesCompatibleWithClassConstructorRule, arguments: {dispatchableClass: Illuminate\\Foundation\\Bus\\Dispatchable}, tags: [phpstan.rules.rule]}, {class: Larastan\\Larastan\\Rules\\CheckDispatchArgumentTypesCompatibleWithClassConstructorRule, arguments: {dispatchableClass: Illuminate\\Foundation\\Events\\Dispatchable}, tags: [phpstan.rules.rule]}, {class: Larastan\\Larastan\\Properties\\Schema\\MySqlDataTypeToPhpTypeConverter}, {class: Larastan\\Larastan\\LarastanStubFilesExtension, tags: [phpstan.stubFilesExtension]}, {class: Larastan\\Larastan\\Rules\\UnusedViewsRule}, {class: Larastan\\Larastan\\Collectors\\UsedViewFunctionCollector, tags: [phpstan.collector]}, {class: Larastan\\Larastan\\Collectors\\UsedEmailViewCollector, tags: [phpstan.collector]}, {class: Larastan\\Larastan\\Collectors\\UsedViewMakeCollector, tags: [phpstan.collector]}, {class: Larastan\\Larastan\\Collectors\\UsedViewFacadeMakeCollector, tags: [phpstan.collector]}, {class: Larastan\\Larastan\\Collectors\\UsedRouteFacadeViewCollector, tags: [phpstan.collector]}, {class: Larastan\\Larastan\\Collectors\\UsedViewInAnotherViewCollector}, {class: Larastan\\Larastan\\Support\\ViewFileHelper, arguments: {viewDirectories: %viewDirectories%}}, {class: Larastan\\Larastan\\Support\\ViewParser, arguments: {parser: @currentPhpVersionSimpleDirectParser}}, {class: Larastan\\Larastan\\Rules\\NoMissingTranslationsRule, arguments: {translationDirectories: %translationDirectories%}}, {class: Larastan\\Larastan\\Collectors\\UsedTranslationFunctionCollector, tags: [phpstan.collector]}, {class: Larastan\\Larastan\\Collectors\\UsedTranslationTranslatorCollector, tags: [phpstan.collector]}, {class: Larastan\\Larastan\\Collectors\\UsedTranslationFacadeCollector, tags: [phpstan.collector]}, {class: Larastan\\Larastan\\Collectors\\UsedTranslationViewCollector}, {class: Larastan\\Larastan\\ReturnTypes\\ApplicationMakeDynamicReturnTypeExtension, tags: [phpstan.broker.dynamicMethodReturnTypeExtension]}, {class: Larastan\\Larastan\\ReturnTypes\\ContainerMakeDynamicReturnTypeExtension, tags: [phpstan.broker.dynamicMethodReturnTypeExtension]}, {class: Larastan\\Larastan\\ReturnTypes\\ConsoleCommand\\ArgumentDynamicReturnTypeExtension, tags: [phpstan.broker.dynamicMethodReturnTypeExtension]}, {class: Larastan\\Larastan\\ReturnTypes\\ConsoleCommand\\HasArgumentDynamicReturnTypeExtension, tags: [phpstan.broker.dynamicMethodReturnTypeExtension]}, {class: Larastan\\Larastan\\ReturnTypes\\ConsoleCommand\\OptionDynamicReturnTypeExtension, tags: [phpstan.broker.dynamicMethodReturnTypeExtension]}, {class: Larastan\\Larastan\\ReturnTypes\\ConsoleCommand\\HasOptionDynamicReturnTypeExtension, tags: [phpstan.broker.dynamicMethodReturnTypeExtension]}, {class: Larastan\\Larastan\\ReturnTypes\\TranslatorGetReturnTypeExtension, tags: [phpstan.broker.dynamicMethodReturnTypeExtension]}, {class: Larastan\\Larastan\\ReturnTypes\\LangGetReturnTypeExtension, tags: [phpstan.broker.dynamicStaticMethodReturnTypeExtension]}, {class: Larastan\\Larastan\\ReturnTypes\\TransHelperReturnTypeExtension, tags: [phpstan.broker.dynamicFunctionReturnTypeExtension]}, {class: Larastan\\Larastan\\ReturnTypes\\DoubleUnderscoreHelperReturnTypeExtension, tags: [phpstan.broker.dynamicFunctionReturnTypeExtension]}, {class: Larastan\\Larastan\\ReturnTypes\\AppMakeHelper}, {class: Larastan\\Larastan\\Internal\\ConsoleApplicationResolver}, {class: Larastan\\Larastan\\Internal\\ConsoleApplicationHelper}, {class: Larastan\\Larastan\\Support\\HigherOrderCollectionProxyHelper}, {class: Larastan\\Larastan\\ReturnTypes\\Helpers\\ConfigFunctionDynamicFunctionReturnTypeExtension}, {class: Larastan\\Larastan\\ReturnTypes\\ConfigRepositoryDynamicMethodReturnTypeExtension}, {class: Larastan\\Larastan\\ReturnTypes\\ConfigFacadeCollectionDynamicStaticMethodReturnTypeExtension}, {class: Larastan\\Larastan\\Support\\ConfigParser, arguments: {parser: @currentPhpVersionSimpleDirectParser, configPaths: %configDirectories%}}, {class: Larastan\\Larastan\\Internal\\ConfigHelper}, {class: Larastan\\Larastan\\ReturnTypes\\Helpers\\EnvFunctionDynamicFunctionReturnTypeExtension}, {class: Larastan\\Larastan\\ReturnTypes\\FormRequestSafeDynamicMethodReturnTypeExtension, tags: [phpstan.broker.dynamicMethodReturnTypeExtension]}, {class: Larastan\\Larastan\\Rules\\NoAuthFacadeInRequestScopeRule}, {class: Larastan\\Larastan\\Rules\\NoAuthHelperInRequestScopeRule}, {class: Larastan\\Larastan\\Rules\\ConfigCollectionRule}, {class: Illuminate\\Filesystem\\Filesystem, autowired: self}, migrationsParser: {class: PHPStan\\Parser\\CachedParser, arguments: {originalParser: @currentPhpVersionSimpleDirectParser, cachedNodesByStringCountMax: %cache.nodesByStringCountMax%}, autowired: false}, {class: Carbon\\PHPStan\\MacroExtension, tags: [phpstan.broker.methodsClassReflectionExtension]}}}',
+  'projectConfig' => '{conditionalTags: {Larastan\\Larastan\\Rules\\NoEnvCallsOutsideOfConfigRule: {phpstan.rules.rule: %noEnvCallsOutsideOfConfig%}, Larastan\\Larastan\\Rules\\NoModelMakeRule: {phpstan.rules.rule: %noModelMake%}, Larastan\\Larastan\\Rules\\NoUnnecessaryCollectionCallRule: {phpstan.rules.rule: %noUnnecessaryCollectionCall%}, Larastan\\Larastan\\Rules\\NoUnnecessaryEnumerableToArrayCallsRule: {phpstan.rules.rule: %noUnnecessaryEnumerableToArrayCalls%}, Larastan\\Larastan\\Rules\\OctaneCompatibilityRule: {phpstan.rules.rule: %checkOctaneCompatibility%}, Larastan\\Larastan\\Rules\\UnusedViewsRule: {phpstan.rules.rule: %checkUnusedViews%}, Larastan\\Larastan\\Rules\\NoMissingTranslationsRule: {phpstan.rules.rule: %checkMissingTranslations%}, Larastan\\Larastan\\Rules\\ModelAppendsRule: {phpstan.rules.rule: %checkModelAppends%}, Larastan\\Larastan\\Rules\\NoPublicModelScopeAndAccessorRule: {phpstan.rules.rule: %checkModelMethodVisibility%}, Larastan\\Larastan\\Rules\\NoAuthFacadeInRequestScopeRule: {phpstan.rules.rule: %checkAuthCallsWhenInRequestScope%}, Larastan\\Larastan\\Rules\\NoAuthHelperInRequestScopeRule: {phpstan.rules.rule: %checkAuthCallsWhenInRequestScope%}, Larastan\\Larastan\\ReturnTypes\\Helpers\\EnvFunctionDynamicFunctionReturnTypeExtension: {phpstan.broker.dynamicFunctionReturnTypeExtension: %generalizeEnvReturnType%}, Larastan\\Larastan\\ReturnTypes\\Helpers\\ConfigFunctionDynamicFunctionReturnTypeExtension: {phpstan.broker.dynamicFunctionReturnTypeExtension: %checkConfigTypes%}, Larastan\\Larastan\\ReturnTypes\\ConfigRepositoryDynamicMethodReturnTypeExtension: {phpstan.broker.dynamicMethodReturnTypeExtension: %checkConfigTypes%}, Larastan\\Larastan\\ReturnTypes\\ConfigFacadeCollectionDynamicStaticMethodReturnTypeExtension: {phpstan.broker.dynamicStaticMethodReturnTypeExtension: %checkConfigTypes%}, Larastan\\Larastan\\Rules\\ConfigCollectionRule: {phpstan.rules.rule: %checkConfigTypes%}}, parameters: {universalObjectCratesClasses: [Illuminate\\Http\\Request, Illuminate\\Support\\Optional], earlyTerminatingFunctionCalls: [abort, dd], mixinExcludeClasses: [Eloquent], bootstrapFiles: [bootstrap.php], checkOctaneCompatibility: false, noEnvCallsOutsideOfConfig: true, noModelMake: true, noUnnecessaryCollectionCall: true, noUnnecessaryCollectionCallOnly: [], noUnnecessaryCollectionCallExcept: [], noUnnecessaryEnumerableToArrayCalls: false, squashedMigrationsPath: [], databaseMigrationsPath: [], disableMigrationScan: false, disableSchemaScan: false, configDirectories: [], viewDirectories: [], translationDirectories: [], checkModelProperties: false, checkUnusedViews: false, checkMissingTranslations: false, checkModelAppends: true, checkModelMethodVisibility: false, generalizeEnvReturnType: false, checkConfigTypes: false, checkAuthCallsWhenInRequestScope: false, featureToggles: {bleedingEdge: true, checkNonStringableDynamicAccess: true, checkParameterCastableToNumberFunctions: true, skipCheckGenericClasses: {_prevent_merging: true}, stricterFunctionMap: true, reportPreciseLineForUnusedFunctionParameter: true, checkPrintfParameterTypes: true, internalTag: true, newStaticInAbstractClassStaticMethod: true, checkExtensionsForComparisonOperators: true, reportTooWideBool: true, rawMessageInBaseline: true, reportNestedTooWideType: false, assignToByRefForeachExpr: true, curlSetOptArrayTypes: true, tooWideImplicitThrows: true}, paths: [C:\\Users\\Em\\Herd\\ReactStart\\app, C:\\Users\\Em\\Herd\\ReactStart\\bootstrap\\app.php, C:\\Users\\Em\\Herd\\ReactStart\\config, C:\\Users\\Em\\Herd\\ReactStart\\database, C:\\Users\\Em\\Herd\\ReactStart\\public, C:\\Users\\Em\\Herd\\ReactStart\\routes], level: max, tmpDir: C:\\Users\\Em\\Herd\\ReactStart\\tmp\\phpstan}, rules: [Larastan\\Larastan\\Rules\\UselessConstructs\\NoUselessWithFunctionCallsRule, Larastan\\Larastan\\Rules\\UselessConstructs\\NoUselessValueFunctionCallsRule, Larastan\\Larastan\\Rules\\DeferrableServiceProviderMissingProvidesRule, Larastan\\Larastan\\Rules\\ConsoleCommand\\UndefinedArgumentOrOptionRule], services: {{class: Larastan\\Larastan\\Methods\\RelationForwardsCallsExtension, tags: [phpstan.broker.methodsClassReflectionExtension]}, {class: Larastan\\Larastan\\Methods\\ModelForwardsCallsExtension, tags: [phpstan.broker.methodsClassReflectionExtension]}, {class: Larastan\\Larastan\\Methods\\EloquentBuilderForwardsCallsExtension, tags: [phpstan.broker.methodsClassReflectionExtension]}, {class: Larastan\\Larastan\\Methods\\HigherOrderTapProxyExtension, tags: [phpstan.broker.methodsClassReflectionExtension]}, {class: Larastan\\Larastan\\Methods\\HigherOrderCollectionProxyExtension, tags: [phpstan.broker.methodsClassReflectionExtension]}, {class: Larastan\\Larastan\\Methods\\StorageMethodsClassReflectionExtension, tags: [phpstan.broker.methodsClassReflectionExtension]}, {class: Larastan\\Larastan\\Methods\\Extension, tags: [phpstan.broker.methodsClassReflectionExtension]}, {class: Larastan\\Larastan\\Methods\\ModelFactoryMethodsClassReflectionExtension, tags: [phpstan.broker.methodsClassReflectionExtension]}, {class: Larastan\\Larastan\\Methods\\RedirectResponseMethodsClassReflectionExtension, tags: [phpstan.broker.methodsClassReflectionExtension]}, {class: Larastan\\Larastan\\Methods\\MacroMethodsClassReflectionExtension, tags: [phpstan.broker.methodsClassReflectionExtension]}, {class: Larastan\\Larastan\\Methods\\ViewWithMethodsClassReflectionExtension, tags: [phpstan.broker.methodsClassReflectionExtension]}, {class: Larastan\\Larastan\\Properties\\ModelAccessorExtension, tags: [phpstan.broker.propertiesClassReflectionExtension]}, {class: Larastan\\Larastan\\Properties\\ModelPropertyExtension, tags: [phpstan.broker.propertiesClassReflectionExtension]}, {class: Larastan\\Larastan\\Properties\\HigherOrderCollectionProxyPropertyExtension, tags: [phpstan.broker.propertiesClassReflectionExtension]}, {class: Larastan\\Larastan\\ReturnTypes\\HigherOrderTapProxyExtension, tags: [phpstan.broker.dynamicMethodReturnTypeExtension]}, {class: Larastan\\Larastan\\ReturnTypes\\ContainerArrayAccessDynamicMethodReturnTypeExtension, tags: [phpstan.broker.dynamicMethodReturnTypeExtension], arguments: {className: Illuminate\\Contracts\\Container\\Container}}, {class: Larastan\\Larastan\\ReturnTypes\\ContainerArrayAccessDynamicMethodReturnTypeExtension, tags: [phpstan.broker.dynamicMethodReturnTypeExtension], arguments: {className: Illuminate\\Container\\Container}}, {class: Larastan\\Larastan\\ReturnTypes\\ContainerArrayAccessDynamicMethodReturnTypeExtension, tags: [phpstan.broker.dynamicMethodReturnTypeExtension], arguments: {className: Illuminate\\Foundation\\Application}}, {class: Larastan\\Larastan\\ReturnTypes\\ContainerArrayAccessDynamicMethodReturnTypeExtension, tags: [phpstan.broker.dynamicMethodReturnTypeExtension], arguments: {className: Illuminate\\Contracts\\Foundation\\Application}}, {class: Larastan\\Larastan\\Properties\\ModelRelationsExtension, tags: [phpstan.broker.propertiesClassReflectionExtension]}, {class: Larastan\\Larastan\\ReturnTypes\\ModelOnlyDynamicMethodReturnTypeExtension, tags: [phpstan.broker.dynamicMethodReturnTypeExtension]}, {class: Larastan\\Larastan\\ReturnTypes\\ModelFactoryDynamicStaticMethodReturnTypeExtension, tags: [phpstan.broker.dynamicStaticMethodReturnTypeExtension]}, {class: Larastan\\Larastan\\ReturnTypes\\ModelDynamicStaticMethodReturnTypeExtension, tags: [phpstan.broker.dynamicStaticMethodReturnTypeExtension]}, {class: Larastan\\Larastan\\ReturnTypes\\AppMakeDynamicReturnTypeExtension, tags: [phpstan.broker.dynamicStaticMethodReturnTypeExtension]}, {class: Larastan\\Larastan\\ReturnTypes\\AuthExtension, tags: [phpstan.broker.dynamicStaticMethodReturnTypeExtension]}, {class: Larastan\\Larastan\\ReturnTypes\\GuardDynamicStaticMethodReturnTypeExtension, tags: [phpstan.broker.dynamicStaticMethodReturnTypeExtension]}, {class: Larastan\\Larastan\\ReturnTypes\\AuthManagerExtension, tags: [phpstan.broker.dynamicMethodReturnTypeExtension]}, {class: Larastan\\Larastan\\ReturnTypes\\DateExtension, tags: [phpstan.broker.dynamicStaticMethodReturnTypeExtension]}, {class: Larastan\\Larastan\\ReturnTypes\\GuardExtension, tags: [phpstan.broker.dynamicMethodReturnTypeExtension]}, {class: Larastan\\Larastan\\ReturnTypes\\RequestFileExtension, tags: [phpstan.broker.dynamicMethodReturnTypeExtension]}, {class: Larastan\\Larastan\\ReturnTypes\\RequestRouteExtension, tags: [phpstan.broker.dynamicMethodReturnTypeExtension]}, {class: Larastan\\Larastan\\ReturnTypes\\RequestUserExtension, tags: [phpstan.broker.dynamicMethodReturnTypeExtension]}, {class: Larastan\\Larastan\\ReturnTypes\\EloquentBuilderExtension, tags: [phpstan.broker.dynamicMethodReturnTypeExtension]}, {class: Larastan\\Larastan\\ReturnTypes\\RelationCollectionExtension, tags: [phpstan.broker.dynamicMethodReturnTypeExtension]}, {class: Larastan\\Larastan\\ReturnTypes\\TestCaseExtension, tags: [phpstan.broker.dynamicMethodReturnTypeExtension]}, {class: Larastan\\Larastan\\Support\\CollectionHelper}, {class: Larastan\\Larastan\\ReturnTypes\\Helpers\\AuthExtension, tags: [phpstan.broker.dynamicFunctionReturnTypeExtension]}, {class: Larastan\\Larastan\\ReturnTypes\\Helpers\\CollectExtension, tags: [phpstan.broker.dynamicFunctionReturnTypeExtension]}, {class: Larastan\\Larastan\\ReturnTypes\\Helpers\\NowAndTodayExtension, tags: [phpstan.broker.dynamicFunctionReturnTypeExtension]}, {class: Larastan\\Larastan\\ReturnTypes\\Helpers\\ResponseExtension, tags: [phpstan.broker.dynamicFunctionReturnTypeExtension]}, {class: Larastan\\Larastan\\ReturnTypes\\Helpers\\ValidatorExtension, tags: [phpstan.broker.dynamicFunctionReturnTypeExtension]}, {class: Larastan\\Larastan\\ReturnTypes\\Helpers\\LiteralExtension, tags: [phpstan.broker.dynamicFunctionReturnTypeExtension]}, {class: Larastan\\Larastan\\ReturnTypes\\CollectionFilterRejectDynamicReturnTypeExtension, tags: [phpstan.broker.dynamicMethodReturnTypeExtension]}, {class: Larastan\\Larastan\\ReturnTypes\\CollectionWhereNotNullDynamicReturnTypeExtension, tags: [phpstan.broker.dynamicMethodReturnTypeExtension]}, {class: Larastan\\Larastan\\ReturnTypes\\NewModelQueryDynamicMethodReturnTypeExtension, tags: [phpstan.broker.dynamicMethodReturnTypeExtension]}, {class: Larastan\\Larastan\\ReturnTypes\\FactoryDynamicMethodReturnTypeExtension, tags: [phpstan.broker.dynamicMethodReturnTypeExtension]}, {class: Larastan\\Larastan\\Types\\AbortIfFunctionTypeSpecifyingExtension, tags: [phpstan.typeSpecifier.functionTypeSpecifyingExtension], arguments: {methodName: abort, negate: false}}, {class: Larastan\\Larastan\\Types\\AbortIfFunctionTypeSpecifyingExtension, tags: [phpstan.typeSpecifier.functionTypeSpecifyingExtension], arguments: {methodName: abort, negate: true}}, {class: Larastan\\Larastan\\Types\\AbortIfFunctionTypeSpecifyingExtension, tags: [phpstan.typeSpecifier.functionTypeSpecifyingExtension], arguments: {methodName: throw, negate: false}}, {class: Larastan\\Larastan\\Types\\AbortIfFunctionTypeSpecifyingExtension, tags: [phpstan.typeSpecifier.functionTypeSpecifyingExtension], arguments: {methodName: throw, negate: true}}, {class: Larastan\\Larastan\\ReturnTypes\\Helpers\\AppExtension, tags: [phpstan.broker.dynamicFunctionReturnTypeExtension]}, {class: Larastan\\Larastan\\ReturnTypes\\Helpers\\ValueExtension, tags: [phpstan.broker.dynamicFunctionReturnTypeExtension]}, {class: Larastan\\Larastan\\ReturnTypes\\Helpers\\StrExtension, tags: [phpstan.broker.dynamicFunctionReturnTypeExtension]}, {class: Larastan\\Larastan\\ReturnTypes\\Helpers\\TapExtension, tags: [phpstan.broker.dynamicFunctionReturnTypeExtension]}, {class: Larastan\\Larastan\\ReturnTypes\\StorageDynamicStaticMethodReturnTypeExtension, tags: [phpstan.broker.dynamicStaticMethodReturnTypeExtension]}, {class: Larastan\\Larastan\\Types\\GenericEloquentCollectionTypeNodeResolverExtension, tags: [phpstan.phpDoc.typeNodeResolverExtension]}, {class: Larastan\\Larastan\\Types\\ViewStringTypeNodeResolverExtension, tags: [phpstan.phpDoc.typeNodeResolverExtension]}, {class: Larastan\\Larastan\\Rules\\OctaneCompatibilityRule}, {class: Larastan\\Larastan\\Rules\\NoEnvCallsOutsideOfConfigRule, arguments: {configDirectories: %configDirectories%}}, {class: Larastan\\Larastan\\Rules\\NoModelMakeRule}, {class: Larastan\\Larastan\\Rules\\NoUnnecessaryCollectionCallRule, arguments: {onlyMethods: %noUnnecessaryCollectionCallOnly%, excludeMethods: %noUnnecessaryCollectionCallExcept%}}, {class: Larastan\\Larastan\\Rules\\NoUnnecessaryEnumerableToArrayCallsRule}, {class: Larastan\\Larastan\\Rules\\ModelAppendsRule}, {class: Larastan\\Larastan\\Rules\\NoPublicModelScopeAndAccessorRule}, {class: Larastan\\Larastan\\Types\\GenericEloquentBuilderTypeNodeResolverExtension, tags: [phpstan.phpDoc.typeNodeResolverExtension]}, {class: Larastan\\Larastan\\ReturnTypes\\AppEnvironmentReturnTypeExtension, tags: [phpstan.broker.dynamicMethodReturnTypeExtension], arguments: {class: Illuminate\\Foundation\\Application}}, {class: Larastan\\Larastan\\ReturnTypes\\AppEnvironmentReturnTypeExtension, tags: [phpstan.broker.dynamicMethodReturnTypeExtension], arguments: {class: Illuminate\\Contracts\\Foundation\\Application}}, {class: Larastan\\Larastan\\ReturnTypes\\AppFacadeEnvironmentReturnTypeExtension, tags: [phpstan.broker.dynamicStaticMethodReturnTypeExtension]}, {class: Larastan\\Larastan\\Types\\ModelProperty\\ModelPropertyTypeNodeResolverExtension, tags: [phpstan.phpDoc.typeNodeResolverExtension], arguments: {active: %checkModelProperties%}}, {class: Larastan\\Larastan\\Types\\CollectionOf\\CollectionOfTypeNodeResolverExtension, tags: [phpstan.phpDoc.typeNodeResolverExtension]}, {class: Larastan\\Larastan\\Properties\\MigrationHelper, arguments: {databaseMigrationPath: %databaseMigrationsPath%, disableMigrationScan: %disableMigrationScan%, parser: @migrationsParser, reflectionProvider: @reflectionProvider}}, iamcalSqlParser: {class: Larastan\\Larastan\\SQL\\IamcalSqlParser, autowired: false}, sqlParserFactory: {class: Larastan\\Larastan\\SQL\\SqlParserFactory, arguments: {iamcalSqlParser: @iamcalSqlParser}}, sqlParser: {type: Larastan\\Larastan\\SQL\\SqlParser, factory: [@sqlParserFactory, create]}, {class: Larastan\\Larastan\\Properties\\SquashedMigrationHelper, arguments: {schemaPaths: %squashedMigrationsPath%, disableSchemaScan: %disableSchemaScan%}}, {class: Larastan\\Larastan\\Properties\\ModelCastHelper}, {class: Larastan\\Larastan\\Properties\\ModelPropertyHelper}, {class: Larastan\\Larastan\\Rules\\ModelRuleHelper}, {class: Larastan\\Larastan\\Methods\\BuilderHelper, arguments: {checkProperties: %checkModelProperties%}}, {class: Larastan\\Larastan\\Rules\\RelationExistenceRule, tags: [phpstan.rules.rule]}, {class: Larastan\\Larastan\\Rules\\CheckDispatchArgumentTypesCompatibleWithClassConstructorRule, arguments: {dispatchableClass: Illuminate\\Foundation\\Bus\\Dispatchable}, tags: [phpstan.rules.rule]}, {class: Larastan\\Larastan\\Rules\\CheckDispatchArgumentTypesCompatibleWithClassConstructorRule, arguments: {dispatchableClass: Illuminate\\Foundation\\Events\\Dispatchable}, tags: [phpstan.rules.rule]}, {class: Larastan\\Larastan\\Properties\\Schema\\MySqlDataTypeToPhpTypeConverter}, {class: Larastan\\Larastan\\LarastanStubFilesExtension, tags: [phpstan.stubFilesExtension]}, {class: Larastan\\Larastan\\Rules\\UnusedViewsRule}, {class: Larastan\\Larastan\\Collectors\\UsedViewFunctionCollector, tags: [phpstan.collector]}, {class: Larastan\\Larastan\\Collectors\\UsedEmailViewCollector, tags: [phpstan.collector]}, {class: Larastan\\Larastan\\Collectors\\UsedViewMakeCollector, tags: [phpstan.collector]}, {class: Larastan\\Larastan\\Collectors\\UsedViewFacadeMakeCollector, tags: [phpstan.collector]}, {class: Larastan\\Larastan\\Collectors\\UsedRouteFacadeViewCollector, tags: [phpstan.collector]}, {class: Larastan\\Larastan\\Collectors\\UsedViewInAnotherViewCollector}, {class: Larastan\\Larastan\\Support\\ViewFileHelper, arguments: {viewDirectories: %viewDirectories%}}, {class: Larastan\\Larastan\\Support\\ViewParser, arguments: {parser: @currentPhpVersionSimpleDirectParser}}, {class: Larastan\\Larastan\\Rules\\NoMissingTranslationsRule, arguments: {translationDirectories: %translationDirectories%}}, {class: Larastan\\Larastan\\Collectors\\UsedTranslationFunctionCollector, tags: [phpstan.collector]}, {class: Larastan\\Larastan\\Collectors\\UsedTranslationTranslatorCollector, tags: [phpstan.collector]}, {class: Larastan\\Larastan\\Collectors\\UsedTranslationFacadeCollector, tags: [phpstan.collector]}, {class: Larastan\\Larastan\\Collectors\\UsedTranslationViewCollector}, {class: Larastan\\Larastan\\ReturnTypes\\ApplicationMakeDynamicReturnTypeExtension, tags: [phpstan.broker.dynamicMethodReturnTypeExtension]}, {class: Larastan\\Larastan\\ReturnTypes\\ContainerMakeDynamicReturnTypeExtension, tags: [phpstan.broker.dynamicMethodReturnTypeExtension]}, {class: Larastan\\Larastan\\ReturnTypes\\ConsoleCommand\\ArgumentDynamicReturnTypeExtension, tags: [phpstan.broker.dynamicMethodReturnTypeExtension]}, {class: Larastan\\Larastan\\ReturnTypes\\ConsoleCommand\\HasArgumentDynamicReturnTypeExtension, tags: [phpstan.broker.dynamicMethodReturnTypeExtension]}, {class: Larastan\\Larastan\\ReturnTypes\\ConsoleCommand\\OptionDynamicReturnTypeExtension, tags: [phpstan.broker.dynamicMethodReturnTypeExtension]}, {class: Larastan\\Larastan\\ReturnTypes\\ConsoleCommand\\HasOptionDynamicReturnTypeExtension, tags: [phpstan.broker.dynamicMethodReturnTypeExtension]}, {class: Larastan\\Larastan\\ReturnTypes\\TranslatorGetReturnTypeExtension, tags: [phpstan.broker.dynamicMethodReturnTypeExtension]}, {class: Larastan\\Larastan\\ReturnTypes\\LangGetReturnTypeExtension, tags: [phpstan.broker.dynamicStaticMethodReturnTypeExtension]}, {class: Larastan\\Larastan\\ReturnTypes\\TransHelperReturnTypeExtension, tags: [phpstan.broker.dynamicFunctionReturnTypeExtension]}, {class: Larastan\\Larastan\\ReturnTypes\\DoubleUnderscoreHelperReturnTypeExtension, tags: [phpstan.broker.dynamicFunctionReturnTypeExtension]}, {class: Larastan\\Larastan\\ReturnTypes\\AppMakeHelper}, {class: Larastan\\Larastan\\Internal\\ConsoleApplicationResolver}, {class: Larastan\\Larastan\\Internal\\ConsoleApplicationHelper}, {class: Larastan\\Larastan\\Support\\HigherOrderCollectionProxyHelper}, {class: Larastan\\Larastan\\ReturnTypes\\Helpers\\ConfigFunctionDynamicFunctionReturnTypeExtension}, {class: Larastan\\Larastan\\ReturnTypes\\ConfigRepositoryDynamicMethodReturnTypeExtension}, {class: Larastan\\Larastan\\ReturnTypes\\ConfigFacadeCollectionDynamicStaticMethodReturnTypeExtension}, {class: Larastan\\Larastan\\Support\\ConfigParser, arguments: {parser: @currentPhpVersionSimpleDirectParser, configPaths: %configDirectories%}}, {class: Larastan\\Larastan\\Internal\\ConfigHelper}, {class: Larastan\\Larastan\\ReturnTypes\\Helpers\\EnvFunctionDynamicFunctionReturnTypeExtension}, {class: Larastan\\Larastan\\ReturnTypes\\FormRequestSafeDynamicMethodReturnTypeExtension, tags: [phpstan.broker.dynamicMethodReturnTypeExtension]}, {class: Larastan\\Larastan\\Rules\\NoAuthFacadeInRequestScopeRule}, {class: Larastan\\Larastan\\Rules\\NoAuthHelperInRequestScopeRule}, {class: Larastan\\Larastan\\Rules\\ConfigCollectionRule}, {class: Illuminate\\Filesystem\\Filesystem, autowired: self}, migrationsParser: {class: PHPStan\\Parser\\CachedParser, arguments: {originalParser: @currentPhpVersionSimpleDirectParser, cachedNodesByStringCountMax: %cache.nodesByStringCountMax%}, autowired: false}, {class: Carbon\\PHPStan\\MacroExtension, tags: [phpstan.broker.methodsClassReflectionExtension]}}}',
   'analysedPaths' => 
   array (
-    0 => 'C:\\Users\\Em\\Herd\\portfolio26\\app',
-    1 => 'C:\\Users\\Em\\Herd\\portfolio26\\bootstrap\\app.php',
-    2 => 'C:\\Users\\Em\\Herd\\portfolio26\\config',
-    3 => 'C:\\Users\\Em\\Herd\\portfolio26\\database',
-    4 => 'C:\\Users\\Em\\Herd\\portfolio26\\public',
-    5 => 'C:\\Users\\Em\\Herd\\portfolio26\\routes',
+    0 => 'C:\\Users\\Em\\Herd\\ReactStart\\app',
+    1 => 'C:\\Users\\Em\\Herd\\ReactStart\\bootstrap\\app.php',
+    2 => 'C:\\Users\\Em\\Herd\\ReactStart\\config',
+    3 => 'C:\\Users\\Em\\Herd\\ReactStart\\database',
+    4 => 'C:\\Users\\Em\\Herd\\ReactStart\\public',
+    5 => 'C:\\Users\\Em\\Herd\\ReactStart\\routes',
   ),
   'scannedFiles' => 
   array (
   ),
   'composerLocks' => 
   array (
-    'C:/Users/Em/Herd/portfolio26/composer.lock' => '3d41032463236bbed31e80e0184613045b5a1a36',
+    'C:/Users/Em/Herd/ReactStart/composer.lock' => '3d41032463236bbed31e80e0184613045b5a1a36',
   ),
   'composerInstalled' => 
   array (
-    'C:/Users/Em/Herd/portfolio26/vendor/composer/installed.php' => 
+    'C:/Users/Em/Herd/ReactStart/vendor/composer/installed.php' => 
     array (
       'versions' => 
       array (
@@ -38,7 +38,7 @@ return [
           'version' => '3.1.1.0',
           'reference' => 'fa0ab33a6f47a82929c38d03ca47ebb71086a93f',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../amphp/amp',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../amphp/amp',
           'aliases' => 
           array (
           ),
@@ -50,7 +50,7 @@ return [
           'version' => '2.1.2.0',
           'reference' => '55a6bd071aec26fa2a3e002618c20c35e3df1b46',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../amphp/byte-stream',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../amphp/byte-stream',
           'aliases' => 
           array (
           ),
@@ -62,7 +62,7 @@ return [
           'version' => '2.0.1.0',
           'reference' => '46912e387e6aa94933b61ea1ead9cf7540b7797c',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../amphp/cache',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../amphp/cache',
           'aliases' => 
           array (
           ),
@@ -74,7 +74,7 @@ return [
           'version' => '2.4.0.0',
           'reference' => '78eb3db5fc69bf2fc0cb503c4fcba667bc223c71',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../amphp/dns',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../amphp/dns',
           'aliases' => 
           array (
           ),
@@ -86,7 +86,7 @@ return [
           'version' => '3.2.1.0',
           'reference' => '4f293064b15682a2b178b1367ddf0b8b5feb0239',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../amphp/hpack',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../amphp/hpack',
           'aliases' => 
           array (
           ),
@@ -98,7 +98,7 @@ return [
           'version' => '2.1.2.0',
           'reference' => '3680d80bd38b5d6f3c2cef2214ca6dd6cef26588',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../amphp/http',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../amphp/http',
           'aliases' => 
           array (
           ),
@@ -110,7 +110,7 @@ return [
           'version' => '5.3.4.0',
           'reference' => '75ad21574fd632594a2dd914496647816d5106bc',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../amphp/http-client',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../amphp/http-client',
           'aliases' => 
           array (
           ),
@@ -122,7 +122,7 @@ return [
           'version' => '3.4.3.0',
           'reference' => '7aa962b0569f664af3ba23bc819f2a69884329cd',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../amphp/http-server',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../amphp/http-server',
           'aliases' => 
           array (
           ),
@@ -134,7 +134,7 @@ return [
           'version' => '1.1.1.0',
           'reference' => '3cf1f8b32a0171d4b1bed93d25617637a77cded7',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../amphp/parser',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../amphp/parser',
           'aliases' => 
           array (
           ),
@@ -146,7 +146,7 @@ return [
           'version' => '1.2.3.0',
           'reference' => '7b52598c2e9105ebcddf247fc523161581930367',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../amphp/pipeline',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../amphp/pipeline',
           'aliases' => 
           array (
           ),
@@ -158,7 +158,7 @@ return [
           'version' => '2.0.3.0',
           'reference' => '52e08c09dec7511d5fbc1fb00d3e4e79fc77d58d',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../amphp/process',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../amphp/process',
           'aliases' => 
           array (
           ),
@@ -170,7 +170,7 @@ return [
           'version' => '1.0.0.0',
           'reference' => '693e77b2fb0b266c3c7d622317f881de44ae94a1',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../amphp/serialization',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../amphp/serialization',
           'aliases' => 
           array (
           ),
@@ -182,7 +182,7 @@ return [
           'version' => '2.3.1.0',
           'reference' => '58e0422221825b79681b72c50c47a930be7bf1e1',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../amphp/socket',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../amphp/socket',
           'aliases' => 
           array (
           ),
@@ -194,7 +194,7 @@ return [
           'version' => '2.3.0.0',
           'reference' => '217097b785130d77cfcc58ff583cf26cd1770bf1',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../amphp/sync',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../amphp/sync',
           'aliases' => 
           array (
           ),
@@ -206,7 +206,7 @@ return [
           'version' => '2.0.4.0',
           'reference' => '963904b6a883c4b62d9222d1d9749814fac96a3b',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../amphp/websocket',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../amphp/websocket',
           'aliases' => 
           array (
           ),
@@ -218,7 +218,7 @@ return [
           'version' => '2.0.2.0',
           'reference' => 'dc033fdce0af56295a23f63ac4f579b34d470d6c',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../amphp/websocket-client',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../amphp/websocket-client',
           'aliases' => 
           array (
           ),
@@ -230,7 +230,7 @@ return [
           'version' => '3.0.1.0',
           'reference' => 'f9cc1f52b5a463062251d666761178dbdb6b544f',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../bacon/bacon-qr-code',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../bacon/bacon-qr-code',
           'aliases' => 
           array (
           ),
@@ -242,7 +242,7 @@ return [
           'version' => '7.14.2.0',
           'reference' => 'de06de1ae1203b11976c6ca01d6a9081c8b33d45',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../brianium/paratest',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../brianium/paratest',
           'aliases' => 
           array (
           ),
@@ -254,7 +254,7 @@ return [
           'version' => '0.14.0.0',
           'reference' => '113a8ee2656b882d4c3164fa31aa6e12cbb7aaa2',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../brick/math',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../brick/math',
           'aliases' => 
           array (
           ),
@@ -266,7 +266,7 @@ return [
           'version' => '3.2.0.0',
           'reference' => '18ba5ddfec8976260ead6e866180bd5d2f71aa1d',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../carbonphp/carbon-doctrine-types',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../carbonphp/carbon-doctrine-types',
           'aliases' => 
           array (
           ),
@@ -286,7 +286,7 @@ return [
           'version' => '1.0.7.0',
           'reference' => 'b5874fa9ed0043116c72162ec7f4fb50e02e7cce',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../dasprid/enum',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../dasprid/enum',
           'aliases' => 
           array (
           ),
@@ -306,7 +306,7 @@ return [
           'version' => '2.1.0.0',
           'reference' => 'b84c94e8fe6b7ee4aecfe121bfe3b6177d303c8a',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../daverandom/libdns',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../daverandom/libdns',
           'aliases' => 
           array (
           ),
@@ -318,7 +318,7 @@ return [
           'version' => '3.0.3.0',
           'reference' => 'a23a2bf4f31d3518f3ecb38660c95715dfead60f',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../dflydev/dot-access-data',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../dflydev/dot-access-data',
           'aliases' => 
           array (
           ),
@@ -330,7 +330,7 @@ return [
           'version' => '1.1.5.0',
           'reference' => '459c2f5dd3d6a4633d3b5f46ee2b1c40f57d3f38',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../doctrine/deprecations',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../doctrine/deprecations',
           'aliases' => 
           array (
           ),
@@ -342,7 +342,7 @@ return [
           'version' => '2.1.0.0',
           'reference' => '6d6c96277ea252fc1304627204c3d5e6e15faa3b',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../doctrine/inflector',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../doctrine/inflector',
           'aliases' => 
           array (
           ),
@@ -354,7 +354,7 @@ return [
           'version' => '3.0.1.0',
           'reference' => '31ad66abc0fc9e1a1f2d9bc6a42668d2fbbcd6dd',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../doctrine/lexer',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../doctrine/lexer',
           'aliases' => 
           array (
           ),
@@ -366,7 +366,7 @@ return [
           'version' => '3.6.0.0',
           'reference' => 'd61a8a9604ec1f8c3d150d09db6ce98b32675013',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../dragonmantank/cron-expression',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../dragonmantank/cron-expression',
           'aliases' => 
           array (
           ),
@@ -378,7 +378,7 @@ return [
           'version' => '4.0.4.0',
           'reference' => 'd42c8731f0624ad6bdc8d3e5e9a4524f68801cfa',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../egulias/email-validator',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../egulias/email-validator',
           'aliases' => 
           array (
           ),
@@ -390,7 +390,7 @@ return [
           'version' => '1.24.1.0',
           'reference' => 'e0ee18eb1e6dc3cda3ce9fd97e5a0689a88a64b5',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../fakerphp/faker',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../fakerphp/faker',
           'aliases' => 
           array (
           ),
@@ -402,7 +402,7 @@ return [
           'version' => '1.3.0.0',
           'reference' => 'db9508f7b1474469d9d3c53b86f817e344732678',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../fidry/cpu-core-counter',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../fidry/cpu-core-counter',
           'aliases' => 
           array (
           ),
@@ -414,7 +414,7 @@ return [
           'version' => '2.18.4.0',
           'reference' => 'd2102955e48b9fd9ab24280a7ad12ed552752c4d',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../filp/whoops',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../filp/whoops',
           'aliases' => 
           array (
           ),
@@ -426,7 +426,7 @@ return [
           'version' => '1.3.0.0',
           'reference' => '3d158f36e7875e2f040f37bc0573956240a5a38b',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../fruitcake/php-cors',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../fruitcake/php-cors',
           'aliases' => 
           array (
           ),
@@ -438,7 +438,7 @@ return [
           'version' => '1.1.3.0',
           'reference' => '3ba905c11371512af9d9bdd27d99b782216b6945',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../graham-campbell/result-type',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../graham-campbell/result-type',
           'aliases' => 
           array (
           ),
@@ -450,7 +450,7 @@ return [
           'version' => '7.10.0.0',
           'reference' => 'b51ac707cfa420b7bfd4e4d5e510ba8008e822b4',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../guzzlehttp/guzzle',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../guzzlehttp/guzzle',
           'aliases' => 
           array (
           ),
@@ -462,7 +462,7 @@ return [
           'version' => '2.3.0.0',
           'reference' => '481557b130ef3790cf82b713667b43030dc9c957',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../guzzlehttp/promises',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../guzzlehttp/promises',
           'aliases' => 
           array (
           ),
@@ -474,7 +474,7 @@ return [
           'version' => '2.8.0.0',
           'reference' => '21dc724a0583619cd1652f673303492272778051',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../guzzlehttp/psr7',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../guzzlehttp/psr7',
           'aliases' => 
           array (
           ),
@@ -486,7 +486,7 @@ return [
           'version' => '1.0.5.0',
           'reference' => '4f4bbd4e7172148801e76e3decc1e559bdee34e1',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../guzzlehttp/uri-template',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../guzzlehttp/uri-template',
           'aliases' => 
           array (
           ),
@@ -498,7 +498,7 @@ return [
           'version' => '2.1.1.0',
           'reference' => 'f8b1c0173b22fa6ec77a81fe63e5b01eba7e6487',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../hamcrest/hamcrest-php',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../hamcrest/hamcrest-php',
           'aliases' => 
           array (
           ),
@@ -510,7 +510,7 @@ return [
           'version' => '0.6.0.0',
           'reference' => '947083e2dca211a6f12fb1beb67a01e387de9b62',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../iamcal/sql-parser',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../iamcal/sql-parser',
           'aliases' => 
           array (
           ),
@@ -802,7 +802,7 @@ return [
           'version' => '2.0.10.0',
           'reference' => '07da425d58a3a0e3ace9c296e67bd897a6e47009',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../inertiajs/inertia-laravel',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../inertiajs/inertia-laravel',
           'aliases' => 
           array (
           ),
@@ -814,7 +814,7 @@ return [
           'version' => '2.1.1.0',
           'reference' => '4d7aa5dab42e2a76d99559706022885de0e18e1a',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../jean85/pretty-package-versions',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../jean85/pretty-package-versions',
           'aliases' => 
           array (
           ),
@@ -826,7 +826,7 @@ return [
           'version' => '1.1.3.0',
           'reference' => '7e00d498c264d5eb4f78c69f41c8bd6719c0199e',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../kelunik/certificate',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../kelunik/certificate',
           'aliases' => 
           array (
           ),
@@ -846,7 +846,7 @@ return [
           'version' => '3.8.0.0',
           'reference' => 'd13ef96d652d1b2a8f34f1760ba6bf5b9c98112e',
           'type' => 'phpstan-extension',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../larastan/larastan',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../larastan/larastan',
           'aliases' => 
           array (
           ),
@@ -858,7 +858,7 @@ return [
           'version' => '1.31.2.0',
           'reference' => 'a046d52ee087ee52c9852b840cf4bbad19f10934',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../laravel/fortify',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../laravel/fortify',
           'aliases' => 
           array (
           ),
@@ -870,7 +870,7 @@ return [
           'version' => '12.37.0.0',
           'reference' => '3c3c4ad30f5b528b164a7c09aa4ad03118c4c125',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../laravel/framework',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../laravel/framework',
           'aliases' => 
           array (
           ),
@@ -882,7 +882,7 @@ return [
           'version' => '1.2.3.0',
           'reference' => '8cc3d575c1f0e57eeb923f366a37528c50d2385a',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../laravel/pail',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../laravel/pail',
           'aliases' => 
           array (
           ),
@@ -894,7 +894,7 @@ return [
           'version' => '1.25.1.0',
           'reference' => '5016e263f95d97670d71b9a987bd8996ade6d8d9',
           'type' => 'project',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../laravel/pint',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../laravel/pint',
           'aliases' => 
           array (
           ),
@@ -906,7 +906,7 @@ return [
           'version' => '0.3.7.0',
           'reference' => 'a1891d362714bc40c8d23b0b1d7090f022ea27cc',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../laravel/prompts',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../laravel/prompts',
           'aliases' => 
           array (
           ),
@@ -918,7 +918,7 @@ return [
           'version' => '1.47.0.0',
           'reference' => '9a11e822238167ad8b791e4ea51155d25cf4d8f2',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../laravel/sail',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../laravel/sail',
           'aliases' => 
           array (
           ),
@@ -930,7 +930,7 @@ return [
           'version' => '2.0.6.0',
           'reference' => '038ce42edee619599a1debb7e81d7b3759492819',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../laravel/serializable-closure',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../laravel/serializable-closure',
           'aliases' => 
           array (
           ),
@@ -942,7 +942,7 @@ return [
           'version' => '2.10.1.0',
           'reference' => '22177cc71807d38f2810c6204d8f7183d88a57d3',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../laravel/tinker',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../laravel/tinker',
           'aliases' => 
           array (
           ),
@@ -954,7 +954,7 @@ return [
           'version' => '0.1.12.0',
           'reference' => '08285225df7f8a094789ad8f384ac6bad6712ff6',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../laravel/wayfinder',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../laravel/wayfinder',
           'aliases' => 
           array (
           ),
@@ -966,7 +966,7 @@ return [
           'version' => '2.7.1.0',
           'reference' => '10732241927d3971d28e7ea7b5712721fa2296ca',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../league/commonmark',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../league/commonmark',
           'aliases' => 
           array (
           ),
@@ -978,7 +978,7 @@ return [
           'version' => '1.2.0.0',
           'reference' => '754b3604fb2984c71f4af4a9cbe7b57f346ec1f3',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../league/config',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../league/config',
           'aliases' => 
           array (
           ),
@@ -990,7 +990,7 @@ return [
           'version' => '3.30.1.0',
           'reference' => 'c139fd65c1f796b926f4aec0df37f6caa959a8da',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../league/flysystem',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../league/flysystem',
           'aliases' => 
           array (
           ),
@@ -1002,7 +1002,7 @@ return [
           'version' => '3.30.0.0',
           'reference' => '6691915f77c7fb69adfb87dcd550052dc184ee10',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../league/flysystem-local',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../league/flysystem-local',
           'aliases' => 
           array (
           ),
@@ -1014,7 +1014,7 @@ return [
           'version' => '1.16.0.0',
           'reference' => '2d6702ff215bf922936ccc1ad31007edc76451b9',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../league/mime-type-detection',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../league/mime-type-detection',
           'aliases' => 
           array (
           ),
@@ -1026,7 +1026,7 @@ return [
           'version' => '7.5.1.0',
           'reference' => '81fb5145d2644324614cc532b28efd0215bda430',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../league/uri',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../league/uri',
           'aliases' => 
           array (
           ),
@@ -1038,7 +1038,7 @@ return [
           'version' => '7.5.1.0',
           'reference' => '4aabf0e2f2f9421ffcacab35be33e4fb5e63c44f',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../league/uri-components',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../league/uri-components',
           'aliases' => 
           array (
           ),
@@ -1050,7 +1050,7 @@ return [
           'version' => '7.5.0.0',
           'reference' => '08cfc6c4f3d811584fb09c37e2849e6a7f9b0742',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../league/uri-interfaces',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../league/uri-interfaces',
           'aliases' => 
           array (
           ),
@@ -1062,7 +1062,7 @@ return [
           'version' => '1.6.12.0',
           'reference' => '1f4efdd7d3beafe9807b08156dfcb176d18f1699',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../mockery/mockery',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../mockery/mockery',
           'aliases' => 
           array (
           ),
@@ -1074,7 +1074,7 @@ return [
           'version' => '3.9.0.0',
           'reference' => '10d85740180ecba7896c87e06a166e0c95a0e3b6',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../monolog/monolog',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../monolog/monolog',
           'aliases' => 
           array (
           ),
@@ -1094,7 +1094,7 @@ return [
           'version' => '1.13.4.0',
           'reference' => '07d290f0c47959fd5eed98c95ee5602db07e0b6a',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../myclabs/deep-copy',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../myclabs/deep-copy',
           'aliases' => 
           array (
           ),
@@ -1106,7 +1106,7 @@ return [
           'version' => '3.10.3.0',
           'reference' => '8e3643dcd149ae0fe1d2ff4f2c8e4bbfad7c165f',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../nesbot/carbon',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../nesbot/carbon',
           'aliases' => 
           array (
           ),
@@ -1118,7 +1118,7 @@ return [
           'version' => '1.3.3.0',
           'reference' => '2befc2f42d7c715fd9d95efc31b1081e5d765004',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../nette/schema',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../nette/schema',
           'aliases' => 
           array (
           ),
@@ -1130,7 +1130,7 @@ return [
           'version' => '4.0.8.0',
           'reference' => 'c930ca4e3cf4f17dcfb03037703679d2396d2ede',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../nette/utils',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../nette/utils',
           'aliases' => 
           array (
           ),
@@ -1142,7 +1142,7 @@ return [
           'version' => '5.6.2.0',
           'reference' => '3a454ca033b9e06b63282ce19562e892747449bb',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../nikic/php-parser',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../nikic/php-parser',
           'aliases' => 
           array (
           ),
@@ -1154,7 +1154,7 @@ return [
           'version' => '8.8.2.0',
           'reference' => '60207965f9b7b7a4ce15a0f75d57f9dadb105bdb',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../nunomaduro/collision',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../nunomaduro/collision',
           'aliases' => 
           array (
           ),
@@ -1166,7 +1166,7 @@ return [
           'version' => '0.1.1.0',
           'reference' => '084ae842c9567a01b9693386e72bbf17ef086566',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../nunomaduro/pokio',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../nunomaduro/pokio',
           'aliases' => 
           array (
           ),
@@ -1178,7 +1178,7 @@ return [
           'version' => '2.3.2.0',
           'reference' => 'eb61920a53057a7debd718a5b89c2178032b52c0',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../nunomaduro/termwind',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../nunomaduro/termwind',
           'aliases' => 
           array (
           ),
@@ -1190,7 +1190,7 @@ return [
           'version' => '3.1.3.0',
           'reference' => 'd5b01a39b3415c2cd581d3bd3a3575c1ebbd8e77',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../paragonie/constant_time_encoding',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../paragonie/constant_time_encoding',
           'aliases' => 
           array (
           ),
@@ -1202,7 +1202,7 @@ return [
           'version' => '4.1.3.0',
           'reference' => '477d20a54fd9329ddfb0f8d4eb90dca7bc81b027',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../pestphp/pest',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../pestphp/pest',
           'aliases' => 
           array (
           ),
@@ -1214,7 +1214,7 @@ return [
           'version' => '4.0.0.0',
           'reference' => '9d4b93d7f73d3f9c3189bb22c220fef271cdf568',
           'type' => 'composer-plugin',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../pestphp/pest-plugin',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../pestphp/pest-plugin',
           'aliases' => 
           array (
           ),
@@ -1226,7 +1226,7 @@ return [
           'version' => '4.0.0.0',
           'reference' => '25bb17e37920ccc35cbbcda3b00d596aadf3e58d',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../pestphp/pest-plugin-arch',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../pestphp/pest-plugin-arch',
           'aliases' => 
           array (
           ),
@@ -1238,7 +1238,7 @@ return [
           'version' => '4.1.1.0',
           'reference' => 'da70fce21e4b33ba22bef1276f654e77676213d7',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../pestphp/pest-plugin-browser',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../pestphp/pest-plugin-browser',
           'aliases' => 
           array (
           ),
@@ -1250,7 +1250,7 @@ return [
           'version' => '4.0.0.0',
           'reference' => 'e12a07046b826a40b1c8632fd7b80d6b8d7b628e',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../pestphp/pest-plugin-laravel',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../pestphp/pest-plugin-laravel',
           'aliases' => 
           array (
           ),
@@ -1262,7 +1262,7 @@ return [
           'version' => '4.0.1.0',
           'reference' => 'd9b32b60b2385e1688a68cc227594738ec26d96c',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../pestphp/pest-plugin-mutate',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../pestphp/pest-plugin-mutate',
           'aliases' => 
           array (
           ),
@@ -1274,7 +1274,7 @@ return [
           'version' => '4.2.0.0',
           'reference' => 'c37e5e2c7136ee4eae12082e7952332bc1c6600a',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../pestphp/pest-plugin-profanity',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../pestphp/pest-plugin-profanity',
           'aliases' => 
           array (
           ),
@@ -1286,7 +1286,7 @@ return [
           'version' => '4.0.3.0',
           'reference' => '123bbf73d4b790373600132f503fd8d1453d40bb',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../pestphp/pest-plugin-type-coverage',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../pestphp/pest-plugin-type-coverage',
           'aliases' => 
           array (
           ),
@@ -1298,7 +1298,7 @@ return [
           'version' => '2.0.4.0',
           'reference' => '54750ef60c58e43759730615a392c31c80e23176',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../phar-io/manifest',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../phar-io/manifest',
           'aliases' => 
           array (
           ),
@@ -1310,7 +1310,7 @@ return [
           'version' => '3.2.1.0',
           'reference' => '4f7fd7836c6f332bb2933569e566a0d6c4cbed74',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../phar-io/version',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../phar-io/version',
           'aliases' => 
           array (
           ),
@@ -1322,7 +1322,7 @@ return [
           'version' => '2.2.0.0',
           'reference' => '1d01c49d4ed62f25aa84a747ad35d5a16924662b',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../phpdocumentor/reflection-common',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../phpdocumentor/reflection-common',
           'aliases' => 
           array (
           ),
@@ -1334,7 +1334,7 @@ return [
           'version' => '5.6.3.0',
           'reference' => '94f8051919d1b0369a6bcc7931d679a511c03fe9',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../phpdocumentor/reflection-docblock',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../phpdocumentor/reflection-docblock',
           'aliases' => 
           array (
           ),
@@ -1346,7 +1346,7 @@ return [
           'version' => '1.10.0.0',
           'reference' => '679e3ce485b99e84c775d28e2e96fade9a7fb50a',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../phpdocumentor/type-resolver',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../phpdocumentor/type-resolver',
           'aliases' => 
           array (
           ),
@@ -1358,7 +1358,7 @@ return [
           'version' => '1.9.4.0',
           'reference' => '638a154f8d4ee6a5cfa96d6a34dfbe0cffa9566d',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../phpoption/phpoption',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../phpoption/phpoption',
           'aliases' => 
           array (
           ),
@@ -1370,7 +1370,7 @@ return [
           'version' => '2.3.0.0',
           'reference' => '1e0cd5370df5dd2e556a36b9c62f62e555870495',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../phpstan/phpdoc-parser',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../phpstan/phpdoc-parser',
           'aliases' => 
           array (
           ),
@@ -1382,7 +1382,7 @@ return [
           'version' => '2.1.31.0',
           'reference' => 'ead89849d879fe203ce9292c6ef5e7e76f867b96',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../phpstan/phpstan',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../phpstan/phpstan',
           'aliases' => 
           array (
           ),
@@ -1394,7 +1394,7 @@ return [
           'version' => '12.4.0.0',
           'reference' => '67e8aed88f93d0e6e1cb7effe1a2dfc2fee6022c',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../phpunit/php-code-coverage',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../phpunit/php-code-coverage',
           'aliases' => 
           array (
           ),
@@ -1406,7 +1406,7 @@ return [
           'version' => '6.0.0.0',
           'reference' => '961bc913d42fe24a257bfff826a5068079ac7782',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../phpunit/php-file-iterator',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../phpunit/php-file-iterator',
           'aliases' => 
           array (
           ),
@@ -1418,7 +1418,7 @@ return [
           'version' => '6.0.0.0',
           'reference' => '12b54e689b07a25a9b41e57736dfab6ec9ae5406',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../phpunit/php-invoker',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../phpunit/php-invoker',
           'aliases' => 
           array (
           ),
@@ -1430,7 +1430,7 @@ return [
           'version' => '5.0.0.0',
           'reference' => 'e1367a453f0eda562eedb4f659e13aa900d66c53',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../phpunit/php-text-template',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../phpunit/php-text-template',
           'aliases' => 
           array (
           ),
@@ -1442,7 +1442,7 @@ return [
           'version' => '8.0.0.0',
           'reference' => 'f258ce36aa457f3aa3339f9ed4c81fc66dc8c2cc',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../phpunit/php-timer',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../phpunit/php-timer',
           'aliases' => 
           array (
           ),
@@ -1454,7 +1454,7 @@ return [
           'version' => '12.4.1.0',
           'reference' => 'fc5413a2e6d240d2f6d9317bdf7f0a24e73de194',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../phpunit/phpunit',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../phpunit/phpunit',
           'aliases' => 
           array (
           ),
@@ -1466,7 +1466,7 @@ return [
           'version' => '8.0.3.0',
           'reference' => '6f8d87ebd5afbf7790bde1ffc7579c7c705e0fad',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../pragmarx/google2fa',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../pragmarx/google2fa',
           'aliases' => 
           array (
           ),
@@ -1478,7 +1478,7 @@ return [
           'version' => '1.0.0.0',
           'reference' => 'e41a24703d4560fd0acb709162f73b8adfc3aa0d',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../psr/clock',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../psr/clock',
           'aliases' => 
           array (
           ),
@@ -1498,7 +1498,7 @@ return [
           'version' => '2.0.2.0',
           'reference' => 'c71ecc56dfe541dbd90c5360474fbc405f8d5963',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../psr/container',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../psr/container',
           'aliases' => 
           array (
           ),
@@ -1518,7 +1518,7 @@ return [
           'version' => '1.0.0.0',
           'reference' => 'dbefd12671e8a14ec7f180cab83036ed26714bb0',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../psr/event-dispatcher',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../psr/event-dispatcher',
           'aliases' => 
           array (
           ),
@@ -1538,7 +1538,7 @@ return [
           'version' => '1.0.3.0',
           'reference' => 'bb5906edc1c324c9a05aa0873d40117941e5fa90',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../psr/http-client',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../psr/http-client',
           'aliases' => 
           array (
           ),
@@ -1558,7 +1558,7 @@ return [
           'version' => '1.1.0.0',
           'reference' => '2b4765fddfe3b508ac62f829e852b1501d3f6e8a',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../psr/http-factory',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../psr/http-factory',
           'aliases' => 
           array (
           ),
@@ -1578,7 +1578,7 @@ return [
           'version' => '2.0.0.0',
           'reference' => '402d35bcb92c70c026d1a6a9883f06b2ead23d71',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../psr/http-message',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../psr/http-message',
           'aliases' => 
           array (
           ),
@@ -1598,7 +1598,7 @@ return [
           'version' => '3.0.2.0',
           'reference' => 'f16e1d5863e37f8d8c2a01719f5b34baa2b714d3',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../psr/log',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../psr/log',
           'aliases' => 
           array (
           ),
@@ -1619,7 +1619,7 @@ return [
           'version' => '3.0.0.0',
           'reference' => '764e0b3939f5ca87cb904f570ef9be2d78a07865',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../psr/simple-cache',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../psr/simple-cache',
           'aliases' => 
           array (
           ),
@@ -1639,7 +1639,7 @@ return [
           'version' => '0.12.14.0',
           'reference' => '95c29b3756a23855a30566b745d218bee690bef2',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../psy/psysh',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../psy/psysh',
           'aliases' => 
           array (
           ),
@@ -1651,7 +1651,7 @@ return [
           'version' => '3.0.3.0',
           'reference' => '120b605dfeb996808c31b6477290a714d356e822',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../ralouphie/getallheaders',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../ralouphie/getallheaders',
           'aliases' => 
           array (
           ),
@@ -1663,7 +1663,7 @@ return [
           'version' => '2.1.1.0',
           'reference' => '344572933ad0181accbf4ba763e85a0306a8c5e2',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../ramsey/collection',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../ramsey/collection',
           'aliases' => 
           array (
           ),
@@ -1675,7 +1675,7 @@ return [
           'version' => '4.9.1.0',
           'reference' => '81f941f6f729b1e3ceea61d9d014f8b6c6800440',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../ramsey/uuid',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../ramsey/uuid',
           'aliases' => 
           array (
           ),
@@ -1687,7 +1687,7 @@ return [
           'version' => '2.2.7.0',
           'reference' => '022038537838bc8a4e526af86c2d6e38eaeff7ef',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../rector/rector',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../rector/rector',
           'aliases' => 
           array (
           ),
@@ -1699,7 +1699,7 @@ return [
           'version' => '1.0.7.0',
           'reference' => '09bf1bf7f7f574453efe43044b06fafe12216eb3',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../revolt/event-loop',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../revolt/event-loop',
           'aliases' => 
           array (
           ),
@@ -1719,7 +1719,7 @@ return [
           'version' => '4.2.0.0',
           'reference' => '90f41072d220e5c40df6e8635f5dafba2d9d4d04',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../sebastian/cli-parser',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../sebastian/cli-parser',
           'aliases' => 
           array (
           ),
@@ -1731,7 +1731,7 @@ return [
           'version' => '7.1.3.0',
           'reference' => 'dc904b4bb3ab070865fa4068cd84f3da8b945148',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../sebastian/comparator',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../sebastian/comparator',
           'aliases' => 
           array (
           ),
@@ -1743,7 +1743,7 @@ return [
           'version' => '5.0.0.0',
           'reference' => 'bad4316aba5303d0221f43f8cee37eb58d384bbb',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../sebastian/complexity',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../sebastian/complexity',
           'aliases' => 
           array (
           ),
@@ -1755,7 +1755,7 @@ return [
           'version' => '7.0.0.0',
           'reference' => '7ab1ea946c012266ca32390913653d844ecd085f',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../sebastian/diff',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../sebastian/diff',
           'aliases' => 
           array (
           ),
@@ -1767,7 +1767,7 @@ return [
           'version' => '8.0.3.0',
           'reference' => '24a711b5c916efc6d6e62aa65aa2ec98fef77f68',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../sebastian/environment',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../sebastian/environment',
           'aliases' => 
           array (
           ),
@@ -1779,7 +1779,7 @@ return [
           'version' => '7.0.2.0',
           'reference' => '016951ae10980765e4e7aee491eb288c64e505b7',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../sebastian/exporter',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../sebastian/exporter',
           'aliases' => 
           array (
           ),
@@ -1791,7 +1791,7 @@ return [
           'version' => '8.0.2.0',
           'reference' => 'ef1377171613d09edd25b7816f05be8313f9115d',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../sebastian/global-state',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../sebastian/global-state',
           'aliases' => 
           array (
           ),
@@ -1803,7 +1803,7 @@ return [
           'version' => '4.0.0.0',
           'reference' => '97ffee3bcfb5805568d6af7f0f893678fc076d2f',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../sebastian/lines-of-code',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../sebastian/lines-of-code',
           'aliases' => 
           array (
           ),
@@ -1815,7 +1815,7 @@ return [
           'version' => '7.0.0.0',
           'reference' => '1effe8e9b8e068e9ae228e542d5d11b5d16db894',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../sebastian/object-enumerator',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../sebastian/object-enumerator',
           'aliases' => 
           array (
           ),
@@ -1827,7 +1827,7 @@ return [
           'version' => '5.0.0.0',
           'reference' => '4bfa827c969c98be1e527abd576533293c634f6a',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../sebastian/object-reflector',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../sebastian/object-reflector',
           'aliases' => 
           array (
           ),
@@ -1839,7 +1839,7 @@ return [
           'version' => '7.0.1.0',
           'reference' => '0b01998a7d5b1f122911a66bebcb8d46f0c82d8c',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../sebastian/recursion-context',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../sebastian/recursion-context',
           'aliases' => 
           array (
           ),
@@ -1851,7 +1851,7 @@ return [
           'version' => '6.0.3.0',
           'reference' => 'e549163b9760b8f71f191651d22acf32d56d6d4d',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../sebastian/type',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../sebastian/type',
           'aliases' => 
           array (
           ),
@@ -1863,7 +1863,7 @@ return [
           'version' => '6.0.0.0',
           'reference' => '3e6ccf7657d4f0a59200564b08cead899313b53c',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../sebastian/version',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../sebastian/version',
           'aliases' => 
           array (
           ),
@@ -1883,7 +1883,7 @@ return [
           'version' => '1.0.5.0',
           'reference' => 'd8334211a140ce329c13726d4a715adbddd0a163',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../staabm/side-effects-detector',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../staabm/side-effects-detector',
           'aliases' => 
           array (
           ),
@@ -1895,7 +1895,7 @@ return [
           'version' => '7.3.0.0',
           'reference' => 'b81435fbd6648ea425d1ee96a2d8e68f4ceacd24',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../symfony/clock',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../symfony/clock',
           'aliases' => 
           array (
           ),
@@ -1907,7 +1907,7 @@ return [
           'version' => '7.3.5.0',
           'reference' => 'cdb80fa5869653c83cfe1a9084a673b6daf57ea7',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../symfony/console',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../symfony/console',
           'aliases' => 
           array (
           ),
@@ -1919,7 +1919,7 @@ return [
           'version' => '7.3.0.0',
           'reference' => '601a5ce9aaad7bf10797e3663faefce9e26c24e2',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../symfony/css-selector',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../symfony/css-selector',
           'aliases' => 
           array (
           ),
@@ -1931,7 +1931,7 @@ return [
           'version' => '3.6.0.0',
           'reference' => '63afe740e99a13ba87ec199bb07bbdee937a5b62',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../symfony/deprecation-contracts',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../symfony/deprecation-contracts',
           'aliases' => 
           array (
           ),
@@ -1943,7 +1943,7 @@ return [
           'version' => '7.3.4.0',
           'reference' => '99f81bc944ab8e5dae4f21b4ca9972698bbad0e4',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../symfony/error-handler',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../symfony/error-handler',
           'aliases' => 
           array (
           ),
@@ -1955,7 +1955,7 @@ return [
           'version' => '7.3.3.0',
           'reference' => 'b7dc69e71de420ac04bc9ab830cf3ffebba48191',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../symfony/event-dispatcher',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../symfony/event-dispatcher',
           'aliases' => 
           array (
           ),
@@ -1967,7 +1967,7 @@ return [
           'version' => '3.6.0.0',
           'reference' => '59eb412e93815df44f05f342958efa9f46b1e586',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../symfony/event-dispatcher-contracts',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../symfony/event-dispatcher-contracts',
           'aliases' => 
           array (
           ),
@@ -1987,7 +1987,7 @@ return [
           'version' => '7.3.5.0',
           'reference' => '9f696d2f1e340484b4683f7853b273abff94421f',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../symfony/finder',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../symfony/finder',
           'aliases' => 
           array (
           ),
@@ -1999,7 +1999,7 @@ return [
           'version' => '7.3.5.0',
           'reference' => 'ce31218c7cac92eab280762c4375fb70a6f4f897',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../symfony/http-foundation',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../symfony/http-foundation',
           'aliases' => 
           array (
           ),
@@ -2011,7 +2011,7 @@ return [
           'version' => '7.3.5.0',
           'reference' => '24fd3f123532e26025f49f1abefcc01a69ef15ab',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../symfony/http-kernel',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../symfony/http-kernel',
           'aliases' => 
           array (
           ),
@@ -2023,7 +2023,7 @@ return [
           'version' => '7.3.5.0',
           'reference' => 'fd497c45ba9c10c37864e19466b090dcb60a50ba',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../symfony/mailer',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../symfony/mailer',
           'aliases' => 
           array (
           ),
@@ -2035,7 +2035,7 @@ return [
           'version' => '7.3.4.0',
           'reference' => 'b1b828f69cbaf887fa835a091869e55df91d0e35',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../symfony/mime',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../symfony/mime',
           'aliases' => 
           array (
           ),
@@ -2047,7 +2047,7 @@ return [
           'version' => '1.33.0.0',
           'reference' => 'a3cc8b044a6ea513310cbd48ef7333b384945638',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../symfony/polyfill-ctype',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../symfony/polyfill-ctype',
           'aliases' => 
           array (
           ),
@@ -2059,7 +2059,7 @@ return [
           'version' => '1.33.0.0',
           'reference' => '380872130d3a5dd3ace2f4010d95125fde5d5c70',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../symfony/polyfill-intl-grapheme',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../symfony/polyfill-intl-grapheme',
           'aliases' => 
           array (
           ),
@@ -2071,7 +2071,7 @@ return [
           'version' => '1.33.0.0',
           'reference' => '9614ac4d8061dc257ecc64cba1b140873dce8ad3',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../symfony/polyfill-intl-idn',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../symfony/polyfill-intl-idn',
           'aliases' => 
           array (
           ),
@@ -2083,7 +2083,7 @@ return [
           'version' => '1.33.0.0',
           'reference' => '3833d7255cc303546435cb650316bff708a1c75c',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../symfony/polyfill-intl-normalizer',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../symfony/polyfill-intl-normalizer',
           'aliases' => 
           array (
           ),
@@ -2095,7 +2095,7 @@ return [
           'version' => '1.33.0.0',
           'reference' => '6d857f4d76bd4b343eac26d6b539585d2bc56493',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../symfony/polyfill-mbstring',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../symfony/polyfill-mbstring',
           'aliases' => 
           array (
           ),
@@ -2107,7 +2107,7 @@ return [
           'version' => '1.33.0.0',
           'reference' => '0cc9dd0f17f61d8131e7df6b84bd344899fe2608',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../symfony/polyfill-php80',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../symfony/polyfill-php80',
           'aliases' => 
           array (
           ),
@@ -2119,7 +2119,7 @@ return [
           'version' => '1.33.0.0',
           'reference' => '17f6f9a6b1735c0f163024d959f700cfbc5155e5',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../symfony/polyfill-php83',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../symfony/polyfill-php83',
           'aliases' => 
           array (
           ),
@@ -2131,7 +2131,7 @@ return [
           'version' => '1.33.0.0',
           'reference' => 'd8ced4d875142b6a7426000426b8abc631d6b191',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../symfony/polyfill-php84',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../symfony/polyfill-php84',
           'aliases' => 
           array (
           ),
@@ -2143,7 +2143,7 @@ return [
           'version' => '1.33.0.0',
           'reference' => 'd4e5fcd4ab3d998ab16c0db48e6cbb9a01993f91',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../symfony/polyfill-php85',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../symfony/polyfill-php85',
           'aliases' => 
           array (
           ),
@@ -2155,7 +2155,7 @@ return [
           'version' => '1.33.0.0',
           'reference' => '21533be36c24be3f4b1669c4725c7d1d2bab4ae2',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../symfony/polyfill-uuid',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../symfony/polyfill-uuid',
           'aliases' => 
           array (
           ),
@@ -2167,7 +2167,7 @@ return [
           'version' => '7.3.4.0',
           'reference' => 'f24f8f316367b30810810d4eb30c543d7003ff3b',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../symfony/process',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../symfony/process',
           'aliases' => 
           array (
           ),
@@ -2179,7 +2179,7 @@ return [
           'version' => '7.3.4.0',
           'reference' => '8dc648e159e9bac02b703b9fbd937f19ba13d07c',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../symfony/routing',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../symfony/routing',
           'aliases' => 
           array (
           ),
@@ -2191,7 +2191,7 @@ return [
           'version' => '3.6.0.0',
           'reference' => 'f021b05a130d35510bd6b25fe9053c2a8a15d5d4',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../symfony/service-contracts',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../symfony/service-contracts',
           'aliases' => 
           array (
           ),
@@ -2203,7 +2203,7 @@ return [
           'version' => '7.3.4.0',
           'reference' => 'f96476035142921000338bad71e5247fbc138872',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../symfony/string',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../symfony/string',
           'aliases' => 
           array (
           ),
@@ -2215,7 +2215,7 @@ return [
           'version' => '7.3.4.0',
           'reference' => 'ec25870502d0c7072d086e8ffba1420c85965174',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../symfony/translation',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../symfony/translation',
           'aliases' => 
           array (
           ),
@@ -2227,7 +2227,7 @@ return [
           'version' => '3.6.0.0',
           'reference' => 'df210c7a2573f1913b2d17cc95f90f53a73d8f7d',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../symfony/translation-contracts',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../symfony/translation-contracts',
           'aliases' => 
           array (
           ),
@@ -2247,7 +2247,7 @@ return [
           'version' => '7.3.1.0',
           'reference' => 'a69f69f3159b852651a6bf45a9fdd149520525bb',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../symfony/uid',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../symfony/uid',
           'aliases' => 
           array (
           ),
@@ -2259,7 +2259,7 @@ return [
           'version' => '7.3.5.0',
           'reference' => '476c4ae17f43a9a36650c69879dcf5b1e6ae724d',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../symfony/var-dumper',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../symfony/var-dumper',
           'aliases' => 
           array (
           ),
@@ -2271,7 +2271,7 @@ return [
           'version' => '7.3.5.0',
           'reference' => '90208e2fc6f68f613eae7ca25a2458a931b1bacc',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../symfony/yaml',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../symfony/yaml',
           'aliases' => 
           array (
           ),
@@ -2283,7 +2283,7 @@ return [
           'version' => '0.8.5.0',
           'reference' => 'cf6fb197b676ba716837c886baca842e4db29005',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../ta-tikoma/phpunit-architecture-test',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../ta-tikoma/phpunit-architecture-test',
           'aliases' => 
           array (
           ),
@@ -2295,7 +2295,7 @@ return [
           'version' => '1.2.3.0',
           'reference' => '737eda637ed5e28c3413cb1ebe8bb52cbf1ca7a2',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../theseer/tokenizer',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../theseer/tokenizer',
           'aliases' => 
           array (
           ),
@@ -2307,7 +2307,7 @@ return [
           'version' => '2.3.0.0',
           'reference' => '0d72ac1c00084279c1816675284073c5a337c20d',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../tijsverkoyen/css-to-inline-styles',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../tijsverkoyen/css-to-inline-styles',
           'aliases' => 
           array (
           ),
@@ -2319,7 +2319,7 @@ return [
           'version' => '2.0.2.0',
           'reference' => 'd033429580f2c18bda538fa44f2939236a990e0c',
           'type' => 'phpstan-extension',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../tomasvotruba/type-coverage',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../tomasvotruba/type-coverage',
           'aliases' => 
           array (
           ),
@@ -2331,7 +2331,7 @@ return [
           'version' => '5.6.2.0',
           'reference' => '24ac4c74f91ee2c193fa1aaa5c249cb0822809af',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../vlucas/phpdotenv',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../vlucas/phpdotenv',
           'aliases' => 
           array (
           ),
@@ -2343,7 +2343,7 @@ return [
           'version' => '2.0.3.0',
           'reference' => 'b1d923f88091c6bf09699efcd7c8a1b1bfd7351d',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../voku/portable-ascii',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../voku/portable-ascii',
           'aliases' => 
           array (
           ),
@@ -2355,7 +2355,7 @@ return [
           'version' => '1.12.1.0',
           'reference' => '9be6926d8b485f55b9229203f962b51ed377ba68',
           'type' => 'library',
-          'install_path' => 'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\composer/../webmozart/assert',
+          'install_path' => 'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\composer/../webmozart/assert',
           'aliases' => 
           array (
           ),
@@ -2366,11 +2366,11 @@ return [
   ),
   'executedFilesHashes' => 
   array (
-    'C:\\Users\\Em\\Herd\\portfolio26\\vendor\\larastan\\larastan\\bootstrap.php' => 'e245faaafdb2acc750f4babbbf3b4bd27f415138',
-    'phar://C:\\Users\\Em\\Herd\\portfolio26\\vendor\\phpstan\\phpstan\\phpstan.phar\\stubs\\runtime\\Attribute85.php' => '123dcd45f03f2463904087a66bfe2bc139760df0',
-    'phar://C:\\Users\\Em\\Herd\\portfolio26\\vendor\\phpstan\\phpstan\\phpstan.phar\\stubs\\runtime\\ReflectionAttribute.php' => '0b4b78277eb6545955d2ce5e09bff28f1f8052c8',
-    'phar://C:\\Users\\Em\\Herd\\portfolio26\\vendor\\phpstan\\phpstan\\phpstan.phar\\stubs\\runtime\\ReflectionIntersectionType.php' => 'a3e6299b87ee5d407dae7651758edfa11a74cb11',
-    'phar://C:\\Users\\Em\\Herd\\portfolio26\\vendor\\phpstan\\phpstan\\phpstan.phar\\stubs\\runtime\\ReflectionUnionType.php' => '1b349aa997a834faeafe05fa21bc31cae22bf2e2',
+    'C:\\Users\\Em\\Herd\\ReactStart\\vendor\\larastan\\larastan\\bootstrap.php' => 'e245faaafdb2acc750f4babbbf3b4bd27f415138',
+    'phar://C:\\Users\\Em\\Herd\\ReactStart\\vendor\\phpstan\\phpstan\\phpstan.phar\\stubs\\runtime\\Attribute85.php' => '123dcd45f03f2463904087a66bfe2bc139760df0',
+    'phar://C:\\Users\\Em\\Herd\\ReactStart\\vendor\\phpstan\\phpstan\\phpstan.phar\\stubs\\runtime\\ReflectionAttribute.php' => '0b4b78277eb6545955d2ce5e09bff28f1f8052c8',
+    'phar://C:\\Users\\Em\\Herd\\ReactStart\\vendor\\phpstan\\phpstan\\phpstan.phar\\stubs\\runtime\\ReflectionIntersectionType.php' => 'a3e6299b87ee5d407dae7651758edfa11a74cb11',
+    'phar://C:\\Users\\Em\\Herd\\ReactStart\\vendor\\phpstan\\phpstan\\phpstan.phar\\stubs\\runtime\\ReflectionUnionType.php' => '1b349aa997a834faeafe05fa21bc31cae22bf2e2',
   ),
   'phpExtensions' => 
   array (
@@ -2442,7 +2442,7 @@ return [
 	'unmatchedLineIgnores' => array (
 ),
 	'collectedDataCallback' => static function (): array { return array (
-  'C:\\Users\\Em\\Herd\\portfolio26\\app\\Actions\\Fortify\\CreateNewUser.php' => 
+  'C:\\Users\\Em\\Herd\\ReactStart\\app\\Actions\\Fortify\\CreateNewUser.php' => 
   array (
     'PHPStan\\Rules\\Traits\\TraitUseCollector' => 
     array (
@@ -2452,18 +2452,18 @@ return [
       ),
     ),
   ),
-  'C:\\Users\\Em\\Herd\\portfolio26\\app\\Actions\\Fortify\\PasswordValidationRules.php' => 
+  'C:\\Users\\Em\\Herd\\ReactStart\\app\\Actions\\Fortify\\PasswordValidationRules.php' => 
   array (
     'PHPStan\\Rules\\Traits\\TraitDeclarationCollector' => 
     array (
       0 => 
       array (
         0 => 'App\\Actions\\Fortify\\PasswordValidationRules',
-        1 => 7,
+        1 => 9,
       ),
     ),
   ),
-  'C:\\Users\\Em\\Herd\\portfolio26\\app\\Actions\\Fortify\\ResetUserPassword.php' => 
+  'C:\\Users\\Em\\Herd\\ReactStart\\app\\Actions\\Fortify\\ResetUserPassword.php' => 
   array (
     'PHPStan\\Rules\\Traits\\TraitUseCollector' => 
     array (
@@ -2473,7 +2473,7 @@ return [
       ),
     ),
   ),
-  'C:\\Users\\Em\\Herd\\portfolio26\\app\\Http\\Middleware\\HandleAppearance.php' => 
+  'C:\\Users\\Em\\Herd\\ReactStart\\app\\Http\\Middleware\\HandleAppearance.php' => 
   array (
     'PHPStan\\Rules\\DeadCode\\PossiblyPureStaticCallCollector' => 
     array (
@@ -2481,11 +2481,11 @@ return [
       array (
         0 => 'Illuminate\\Support\\Facades\\View',
         1 => 'share',
-        2 => 19,
+        2 => 21,
       ),
     ),
   ),
-  'C:\\Users\\Em\\Herd\\portfolio26\\app\\Http\\Requests\\Settings\\TwoFactorAuthenticationRequest.php' => 
+  'C:\\Users\\Em\\Herd\\ReactStart\\app\\Http\\Requests\\Settings\\TwoFactorAuthenticationRequest.php' => 
   array (
     'PHPStan\\Rules\\DeadCode\\MethodWithoutImpurePointsCollector' => 
     array (
@@ -2504,7 +2504,7 @@ return [
       ),
     ),
   ),
-  'C:\\Users\\Em\\Herd\\portfolio26\\app\\Models\\User.php' => 
+  'C:\\Users\\Em\\Herd\\ReactStart\\app\\Models\\User.php' => 
   array (
     'PHPStan\\Rules\\DeadCode\\MethodWithoutImpurePointsCollector' => 
     array (
@@ -2525,7 +2525,25 @@ return [
       ),
     ),
   ),
-  'C:\\Users\\Em\\Herd\\portfolio26\\app\\Providers\\FortifyServiceProvider.php' => 
+  'C:\\Users\\Em\\Herd\\ReactStart\\app\\Providers\\AppServiceProvider.php' => 
+  array (
+    'PHPStan\\Rules\\DeadCode\\PossiblyPureStaticCallCollector' => 
+    array (
+      0 => 
+      array (
+        0 => 'Illuminate\\Support\\Facades\\Date',
+        1 => 'use',
+        2 => 63,
+      ),
+      1 => 
+      array (
+        0 => 'Illuminate\\Support\\Facades\\Vite',
+        1 => 'useAggressivePrefetching',
+        2 => 79,
+      ),
+    ),
+  ),
+  'C:\\Users\\Em\\Herd\\ReactStart\\app\\Providers\\FortifyServiceProvider.php' => 
   array (
     'PHPStan\\Rules\\DeadCode\\PossiblyPureStaticCallCollector' => 
     array (
@@ -2533,17 +2551,17 @@ return [
       array (
         0 => 'Illuminate\\Support\\Facades\\RateLimiter',
         1 => 'for',
-        2 => 81,
+        2 => 83,
       ),
       1 => 
       array (
         0 => 'Illuminate\\Support\\Facades\\RateLimiter',
         1 => 'for',
-        2 => 85,
+        2 => 87,
       ),
     ),
   ),
-  'C:\\Users\\Em\\Herd\\portfolio26\\database\\seeders\\DatabaseSeeder.php' => 
+  'C:\\Users\\Em\\Herd\\ReactStart\\database\\seeders\\DatabaseSeeder.php' => 
   array (
     'PHPStan\\Rules\\DeadCode\\PossiblyPureStaticCallCollector' => 
     array (
@@ -2551,22 +2569,22 @@ return [
       array (
         0 => 'Illuminate\\Database\\Eloquent\\Builder',
         1 => 'firstOrCreate',
-        2 => 18,
+        2 => 20,
       ),
     ),
   ),
-  'C:\\Users\\Em\\Herd\\portfolio26\\public\\index.php' => 
+  'C:\\Users\\Em\\Herd\\ReactStart\\public\\index.php' => 
   array (
     'PHPStan\\Rules\\DeadCode\\PossiblyPureFuncCallCollector' => 
     array (
       0 => 
       array (
         0 => 'define',
-        1 => 6,
+        1 => 8,
       ),
     ),
   ),
-  'C:\\Users\\Em\\Herd\\portfolio26\\routes\\settings.php' => 
+  'C:\\Users\\Em\\Herd\\ReactStart\\routes\\settings.php' => 
   array (
     'PHPStan\\Rules\\DeadCode\\PossiblyPureStaticCallCollector' => 
     array (
@@ -2574,306 +2592,306 @@ return [
       array (
         0 => 'Illuminate\\Support\\Facades\\Route',
         1 => 'redirect',
-        2 => 10,
+        2 => 12,
       ),
     ),
   ),
 ); },
 	'dependencies' => array (
-  'C:\\Users\\Em\\Herd\\portfolio26\\app\\Actions\\Fortify\\CreateNewUser.php' => 
+  'C:\\Users\\Em\\Herd\\ReactStart\\app\\Actions\\Fortify\\CreateNewUser.php' => 
   array (
-    'fileHash' => 'dac88412f50d309b2ac005c496eea986d20f453e',
+    'fileHash' => '1fc9e3171b610df4a9e92000a87167e28605f78f',
     'dependentFiles' => 
     array (
-      0 => 'C:\\Users\\Em\\Herd\\portfolio26\\app\\Providers\\FortifyServiceProvider.php',
+      0 => 'C:\\Users\\Em\\Herd\\ReactStart\\app\\Providers\\FortifyServiceProvider.php',
     ),
   ),
-  'C:\\Users\\Em\\Herd\\portfolio26\\app\\Actions\\Fortify\\PasswordValidationRules.php' => 
+  'C:\\Users\\Em\\Herd\\ReactStart\\app\\Actions\\Fortify\\PasswordValidationRules.php' => 
   array (
-    'fileHash' => 'cdd28db27e66a6b1b5bb4815dd51a45cf5232a80',
+    'fileHash' => 'e2d2d0cac8f512136d52f742ec8d98ee1ed984f5',
     'dependentFiles' => 
     array (
-      0 => 'C:\\Users\\Em\\Herd\\portfolio26\\app\\Actions\\Fortify\\CreateNewUser.php',
-      1 => 'C:\\Users\\Em\\Herd\\portfolio26\\app\\Actions\\Fortify\\ResetUserPassword.php',
-      2 => 'C:\\Users\\Em\\Herd\\portfolio26\\app\\Providers\\FortifyServiceProvider.php',
+      0 => 'C:\\Users\\Em\\Herd\\ReactStart\\app\\Actions\\Fortify\\CreateNewUser.php',
+      1 => 'C:\\Users\\Em\\Herd\\ReactStart\\app\\Actions\\Fortify\\ResetUserPassword.php',
+      2 => 'C:\\Users\\Em\\Herd\\ReactStart\\app\\Providers\\FortifyServiceProvider.php',
     ),
     'usedTraitDependentFiles' => 
     array (
-      0 => 'C:\\Users\\Em\\Herd\\portfolio26\\app\\Actions\\Fortify\\CreateNewUser.php',
-      1 => 'C:\\Users\\Em\\Herd\\portfolio26\\app\\Actions\\Fortify\\ResetUserPassword.php',
+      0 => 'C:\\Users\\Em\\Herd\\ReactStart\\app\\Actions\\Fortify\\CreateNewUser.php',
+      1 => 'C:\\Users\\Em\\Herd\\ReactStart\\app\\Actions\\Fortify\\ResetUserPassword.php',
     ),
   ),
-  'C:\\Users\\Em\\Herd\\portfolio26\\app\\Actions\\Fortify\\ResetUserPassword.php' => 
+  'C:\\Users\\Em\\Herd\\ReactStart\\app\\Actions\\Fortify\\ResetUserPassword.php' => 
   array (
-    'fileHash' => '21f90caa341bd6a4766da75b83d4155b60bbccf1',
+    'fileHash' => 'ef3f2b69680e15967f2bed66ebc960adba25ae2d',
     'dependentFiles' => 
     array (
-      0 => 'C:\\Users\\Em\\Herd\\portfolio26\\app\\Providers\\FortifyServiceProvider.php',
+      0 => 'C:\\Users\\Em\\Herd\\ReactStart\\app\\Providers\\FortifyServiceProvider.php',
     ),
   ),
-  'C:\\Users\\Em\\Herd\\portfolio26\\app\\Http\\Controllers\\Controller.php' => 
+  'C:\\Users\\Em\\Herd\\ReactStart\\app\\Http\\Controllers\\Controller.php' => 
   array (
-    'fileHash' => 'a33a5105f92c73a309c9f8a549905dcdf6dccbae',
+    'fileHash' => '75cadca8afa5982965d1ac316df3c693271b4902',
     'dependentFiles' => 
     array (
-      0 => 'C:\\Users\\Em\\Herd\\portfolio26\\app\\Http\\Controllers\\Settings\\PasswordController.php',
-      1 => 'C:\\Users\\Em\\Herd\\portfolio26\\app\\Http\\Controllers\\Settings\\ProfileController.php',
-      2 => 'C:\\Users\\Em\\Herd\\portfolio26\\app\\Http\\Controllers\\Settings\\TwoFactorAuthenticationController.php',
-      3 => 'C:\\Users\\Em\\Herd\\portfolio26\\routes\\settings.php',
+      0 => 'C:\\Users\\Em\\Herd\\ReactStart\\app\\Http\\Controllers\\Settings\\PasswordController.php',
+      1 => 'C:\\Users\\Em\\Herd\\ReactStart\\app\\Http\\Controllers\\Settings\\ProfileController.php',
+      2 => 'C:\\Users\\Em\\Herd\\ReactStart\\app\\Http\\Controllers\\Settings\\TwoFactorAuthenticationController.php',
+      3 => 'C:\\Users\\Em\\Herd\\ReactStart\\routes\\settings.php',
     ),
   ),
-  'C:\\Users\\Em\\Herd\\portfolio26\\app\\Http\\Controllers\\Settings\\PasswordController.php' => 
+  'C:\\Users\\Em\\Herd\\ReactStart\\app\\Http\\Controllers\\Settings\\PasswordController.php' => 
   array (
-    'fileHash' => '9663ec7effa72d623cfc413b2013575814284c9d',
+    'fileHash' => '91892ce385be9bbf2426e6e2fe74bd11c5bebc28',
     'dependentFiles' => 
     array (
-      0 => 'C:\\Users\\Em\\Herd\\portfolio26\\routes\\settings.php',
+      0 => 'C:\\Users\\Em\\Herd\\ReactStart\\routes\\settings.php',
     ),
   ),
-  'C:\\Users\\Em\\Herd\\portfolio26\\app\\Http\\Controllers\\Settings\\ProfileController.php' => 
+  'C:\\Users\\Em\\Herd\\ReactStart\\app\\Http\\Controllers\\Settings\\ProfileController.php' => 
   array (
-    'fileHash' => '5d38a871bb45a6971b8e777bcc2092fbd4f8f44c',
+    'fileHash' => 'e6e4bc7ab00707bd5b0d224552d681adf2e67215',
     'dependentFiles' => 
     array (
-      0 => 'C:\\Users\\Em\\Herd\\portfolio26\\routes\\settings.php',
+      0 => 'C:\\Users\\Em\\Herd\\ReactStart\\routes\\settings.php',
     ),
   ),
-  'C:\\Users\\Em\\Herd\\portfolio26\\app\\Http\\Controllers\\Settings\\TwoFactorAuthenticationController.php' => 
+  'C:\\Users\\Em\\Herd\\ReactStart\\app\\Http\\Controllers\\Settings\\TwoFactorAuthenticationController.php' => 
   array (
-    'fileHash' => 'b7e0ea1bbb3c143b8d0d9fb395db6c852df8b7b0',
+    'fileHash' => '4abd0e158af2646f1db9e44d3c7b19c1b03fb448',
     'dependentFiles' => 
     array (
-      0 => 'C:\\Users\\Em\\Herd\\portfolio26\\routes\\settings.php',
+      0 => 'C:\\Users\\Em\\Herd\\ReactStart\\routes\\settings.php',
     ),
   ),
-  'C:\\Users\\Em\\Herd\\portfolio26\\app\\Http\\Middleware\\HandleAppearance.php' => 
+  'C:\\Users\\Em\\Herd\\ReactStart\\app\\Http\\Middleware\\HandleAppearance.php' => 
   array (
-    'fileHash' => '919b506864fbdf2567a2e1c71b3583c418b06a86',
+    'fileHash' => '92b7dad54daf7e09a0faae0ba96be8ccda493d69',
     'dependentFiles' => 
     array (
-      0 => 'C:\\Users\\Em\\Herd\\portfolio26\\bootstrap\\app.php',
+      0 => 'C:\\Users\\Em\\Herd\\ReactStart\\bootstrap\\app.php',
     ),
   ),
-  'C:\\Users\\Em\\Herd\\portfolio26\\app\\Http\\Middleware\\HandleInertiaRequests.php' => 
+  'C:\\Users\\Em\\Herd\\ReactStart\\app\\Http\\Middleware\\HandleInertiaRequests.php' => 
   array (
-    'fileHash' => '709af0fc4d8826107c190371ff2ec5ca5679a95c',
+    'fileHash' => 'da0f217cca49562485b55a1c7377ceb1c3c9515c',
     'dependentFiles' => 
     array (
-      0 => 'C:\\Users\\Em\\Herd\\portfolio26\\bootstrap\\app.php',
+      0 => 'C:\\Users\\Em\\Herd\\ReactStart\\bootstrap\\app.php',
     ),
   ),
-  'C:\\Users\\Em\\Herd\\portfolio26\\app\\Http\\Requests\\Settings\\ProfileUpdateRequest.php' => 
+  'C:\\Users\\Em\\Herd\\ReactStart\\app\\Http\\Requests\\Settings\\ProfileUpdateRequest.php' => 
   array (
-    'fileHash' => 'a1e61fa565b600f9e1b309972cdfce1e867c0ef1',
+    'fileHash' => 'fe7be9d09ebd544948c09457dcb7dc0f4aca1b92',
     'dependentFiles' => 
     array (
-      0 => 'C:\\Users\\Em\\Herd\\portfolio26\\app\\Http\\Controllers\\Settings\\ProfileController.php',
+      0 => 'C:\\Users\\Em\\Herd\\ReactStart\\app\\Http\\Controllers\\Settings\\ProfileController.php',
     ),
   ),
-  'C:\\Users\\Em\\Herd\\portfolio26\\app\\Http\\Requests\\Settings\\TwoFactorAuthenticationRequest.php' => 
+  'C:\\Users\\Em\\Herd\\ReactStart\\app\\Http\\Requests\\Settings\\TwoFactorAuthenticationRequest.php' => 
   array (
-    'fileHash' => '4f78a8eb3b0b102d6cb568c54e584c3508a65241',
+    'fileHash' => 'abcd580902f4e0947dad7109190250fb31fbb471',
     'dependentFiles' => 
     array (
-      0 => 'C:\\Users\\Em\\Herd\\portfolio26\\app\\Http\\Controllers\\Settings\\TwoFactorAuthenticationController.php',
+      0 => 'C:\\Users\\Em\\Herd\\ReactStart\\app\\Http\\Controllers\\Settings\\TwoFactorAuthenticationController.php',
     ),
   ),
-  'C:\\Users\\Em\\Herd\\portfolio26\\app\\Models\\User.php' => 
+  'C:\\Users\\Em\\Herd\\ReactStart\\app\\Models\\User.php' => 
   array (
-    'fileHash' => '1e24cf09bd4e2dc5caea2707cab7cd85f7bef510',
+    'fileHash' => '5fc851bed81308f69a36112d5bb928a20f3ac248',
     'dependentFiles' => 
     array (
-      0 => 'C:\\Users\\Em\\Herd\\portfolio26\\app\\Actions\\Fortify\\CreateNewUser.php',
-      1 => 'C:\\Users\\Em\\Herd\\portfolio26\\app\\Actions\\Fortify\\ResetUserPassword.php',
-      2 => 'C:\\Users\\Em\\Herd\\portfolio26\\app\\Http\\Controllers\\Settings\\PasswordController.php',
-      3 => 'C:\\Users\\Em\\Herd\\portfolio26\\app\\Http\\Controllers\\Settings\\ProfileController.php',
-      4 => 'C:\\Users\\Em\\Herd\\portfolio26\\app\\Http\\Controllers\\Settings\\TwoFactorAuthenticationController.php',
-      5 => 'C:\\Users\\Em\\Herd\\portfolio26\\app\\Http\\Middleware\\HandleInertiaRequests.php',
-      6 => 'C:\\Users\\Em\\Herd\\portfolio26\\app\\Http\\Requests\\Settings\\ProfileUpdateRequest.php',
-      7 => 'C:\\Users\\Em\\Herd\\portfolio26\\config\\auth.php',
-      8 => 'C:\\Users\\Em\\Herd\\portfolio26\\database\\factories\\UserFactory.php',
-      9 => 'C:\\Users\\Em\\Herd\\portfolio26\\database\\seeders\\DatabaseSeeder.php',
+      0 => 'C:\\Users\\Em\\Herd\\ReactStart\\app\\Actions\\Fortify\\CreateNewUser.php',
+      1 => 'C:\\Users\\Em\\Herd\\ReactStart\\app\\Actions\\Fortify\\ResetUserPassword.php',
+      2 => 'C:\\Users\\Em\\Herd\\ReactStart\\app\\Http\\Controllers\\Settings\\PasswordController.php',
+      3 => 'C:\\Users\\Em\\Herd\\ReactStart\\app\\Http\\Controllers\\Settings\\ProfileController.php',
+      4 => 'C:\\Users\\Em\\Herd\\ReactStart\\app\\Http\\Controllers\\Settings\\TwoFactorAuthenticationController.php',
+      5 => 'C:\\Users\\Em\\Herd\\ReactStart\\app\\Http\\Middleware\\HandleInertiaRequests.php',
+      6 => 'C:\\Users\\Em\\Herd\\ReactStart\\app\\Http\\Requests\\Settings\\ProfileUpdateRequest.php',
+      7 => 'C:\\Users\\Em\\Herd\\ReactStart\\config\\auth.php',
+      8 => 'C:\\Users\\Em\\Herd\\ReactStart\\database\\factories\\UserFactory.php',
+      9 => 'C:\\Users\\Em\\Herd\\ReactStart\\database\\seeders\\DatabaseSeeder.php',
     ),
   ),
-  'C:\\Users\\Em\\Herd\\portfolio26\\app\\Providers\\AppServiceProvider.php' => 
+  'C:\\Users\\Em\\Herd\\ReactStart\\app\\Providers\\AppServiceProvider.php' => 
   array (
-    'fileHash' => '01bf9e5cf5bb666446625056b618445ae4749675',
-    'dependentFiles' => 
-    array (
-    ),
-  ),
-  'C:\\Users\\Em\\Herd\\portfolio26\\app\\Providers\\FortifyServiceProvider.php' => 
-  array (
-    'fileHash' => 'e6fa92df07d66f9ec9632087fb57dc34f485a87d',
+    'fileHash' => 'cc2feb69de6d0962644a4b59f383ab5c3cc5c5f9',
     'dependentFiles' => 
     array (
     ),
   ),
-  'C:\\Users\\Em\\Herd\\portfolio26\\bootstrap\\app.php' => 
+  'C:\\Users\\Em\\Herd\\ReactStart\\app\\Providers\\FortifyServiceProvider.php' => 
   array (
-    'fileHash' => '22b095d52ea031bd55114f73565420bb45b4c1a1',
+    'fileHash' => '5da169fb96e84830cbbb295da1fbf6a3b922f305',
     'dependentFiles' => 
     array (
     ),
   ),
-  'C:\\Users\\Em\\Herd\\portfolio26\\config\\app.php' => 
+  'C:\\Users\\Em\\Herd\\ReactStart\\bootstrap\\app.php' => 
   array (
-    'fileHash' => '248b42420be2f4010a1597761cd348f374a5acd0',
+    'fileHash' => 'f9fe93f00ad4d2984fa1b12d1394da7ee5ae7624',
     'dependentFiles' => 
     array (
     ),
   ),
-  'C:\\Users\\Em\\Herd\\portfolio26\\config\\auth.php' => 
+  'C:\\Users\\Em\\Herd\\ReactStart\\config\\app.php' => 
   array (
-    'fileHash' => 'd14c6ca41850324dcf3bde4b8c4fe4635d21b02e',
+    'fileHash' => 'bead9a0901af94fb9ce71348d12e7313614d605f',
     'dependentFiles' => 
     array (
     ),
   ),
-  'C:\\Users\\Em\\Herd\\portfolio26\\config\\cache.php' => 
+  'C:\\Users\\Em\\Herd\\ReactStart\\config\\auth.php' => 
   array (
-    'fileHash' => 'cd1d6925c3548f3081f827bcce8f9b2c5522795e',
+    'fileHash' => 'd0f53a6fead483a90121365b0fa5f87e8ed0b103',
     'dependentFiles' => 
     array (
     ),
   ),
-  'C:\\Users\\Em\\Herd\\portfolio26\\config\\database.php' => 
+  'C:\\Users\\Em\\Herd\\ReactStart\\config\\cache.php' => 
   array (
-    'fileHash' => '4d7bb78ce43539e75ede1418a37fd5b9cecbb718',
+    'fileHash' => '39a0ce4580f4f6bf139bf3ad877e242fa6a4c7bb',
     'dependentFiles' => 
     array (
     ),
   ),
-  'C:\\Users\\Em\\Herd\\portfolio26\\config\\filesystems.php' => 
+  'C:\\Users\\Em\\Herd\\ReactStart\\config\\database.php' => 
   array (
-    'fileHash' => '6e1e66753542ecbccfe730cfee0d623723be2986',
+    'fileHash' => 'fb9bdb36c2dd37902f6f9d8a84191a201009fd20',
     'dependentFiles' => 
     array (
     ),
   ),
-  'C:\\Users\\Em\\Herd\\portfolio26\\config\\fortify.php' => 
+  'C:\\Users\\Em\\Herd\\ReactStart\\config\\filesystems.php' => 
   array (
-    'fileHash' => '1e4598433a5d13bdd9a0a2612d4a4e84a0542a2c',
+    'fileHash' => '1caeec2e428db10a0486ff9047ff1541d91f6c96',
     'dependentFiles' => 
     array (
     ),
   ),
-  'C:\\Users\\Em\\Herd\\portfolio26\\config\\inertia.php' => 
+  'C:\\Users\\Em\\Herd\\ReactStart\\config\\fortify.php' => 
   array (
-    'fileHash' => '8cab160c193370535e9d62c72d77c556881831f5',
+    'fileHash' => 'c43367c620ca20cd148920d5f7c54fd060f8af4e',
     'dependentFiles' => 
     array (
     ),
   ),
-  'C:\\Users\\Em\\Herd\\portfolio26\\config\\logging.php' => 
+  'C:\\Users\\Em\\Herd\\ReactStart\\config\\inertia.php' => 
   array (
-    'fileHash' => 'f163e17e3d43b2aa18f20994b2d26c2ccabd5abc',
+    'fileHash' => 'ace16862e881f8e94e82c3bb52454911408d7c6f',
     'dependentFiles' => 
     array (
     ),
   ),
-  'C:\\Users\\Em\\Herd\\portfolio26\\config\\mail.php' => 
+  'C:\\Users\\Em\\Herd\\ReactStart\\config\\logging.php' => 
   array (
-    'fileHash' => '55990e37cb337eee513173e5c48479cbb1e5202e',
+    'fileHash' => '2fa3c848276aff1cc0d4e364d80424cc1d0906b5',
     'dependentFiles' => 
     array (
     ),
   ),
-  'C:\\Users\\Em\\Herd\\portfolio26\\config\\queue.php' => 
+  'C:\\Users\\Em\\Herd\\ReactStart\\config\\mail.php' => 
   array (
-    'fileHash' => 'd010c040a947e792dee55b6c5a74f14ba7f656d8',
+    'fileHash' => '5d53e274e2cb119a3a05e36e2632bbaf40eee724',
     'dependentFiles' => 
     array (
     ),
   ),
-  'C:\\Users\\Em\\Herd\\portfolio26\\config\\services.php' => 
+  'C:\\Users\\Em\\Herd\\ReactStart\\config\\queue.php' => 
   array (
-    'fileHash' => 'db4fafeac1c3e89795de0bc27378ee2876cdb5f7',
+    'fileHash' => '97128b2b0131735ef1d5b6f315f0fad788aaa26e',
     'dependentFiles' => 
     array (
     ),
   ),
-  'C:\\Users\\Em\\Herd\\portfolio26\\config\\session.php' => 
+  'C:\\Users\\Em\\Herd\\ReactStart\\config\\services.php' => 
   array (
-    'fileHash' => 'a0ce1b173c09908a3d698b26372566c604844a94',
+    'fileHash' => '4037eab65d8a7bc4f7a94b5c3f72303fccb9a20a',
     'dependentFiles' => 
     array (
     ),
   ),
-  'C:\\Users\\Em\\Herd\\portfolio26\\database\\factories\\UserFactory.php' => 
+  'C:\\Users\\Em\\Herd\\ReactStart\\config\\session.php' => 
   array (
-    'fileHash' => 'a5f7ed4640181df5d34c765f896805790e40d57d',
-    'dependentFiles' => 
-    array (
-      0 => 'C:\\Users\\Em\\Herd\\portfolio26\\app\\Models\\User.php',
-    ),
-  ),
-  'C:\\Users\\Em\\Herd\\portfolio26\\database\\migrations\\0001_01_01_000000_create_users_table.php' => 
-  array (
-    'fileHash' => 'c83722f2f43dc31195e37312e72524af995c15a9',
+    'fileHash' => '25411ccf9512da24ff98c8f12ca73847a322c7ad',
     'dependentFiles' => 
     array (
     ),
   ),
-  'C:\\Users\\Em\\Herd\\portfolio26\\database\\migrations\\0001_01_01_000001_create_cache_table.php' => 
+  'C:\\Users\\Em\\Herd\\ReactStart\\database\\factories\\UserFactory.php' => 
   array (
-    'fileHash' => '1e63143baede25661ec2075259ba517cbf2c2400',
+    'fileHash' => '4c3c2f649420b471c63170438ce6a7d31f45f5aa',
+    'dependentFiles' => 
+    array (
+      0 => 'C:\\Users\\Em\\Herd\\ReactStart\\app\\Models\\User.php',
+    ),
+  ),
+  'C:\\Users\\Em\\Herd\\ReactStart\\database\\migrations\\0001_01_01_000000_create_users_table.php' => 
+  array (
+    'fileHash' => '3267a7ab16e6e28992259d3948e1125692001d3e',
     'dependentFiles' => 
     array (
     ),
   ),
-  'C:\\Users\\Em\\Herd\\portfolio26\\database\\migrations\\0001_01_01_000002_create_jobs_table.php' => 
+  'C:\\Users\\Em\\Herd\\ReactStart\\database\\migrations\\0001_01_01_000001_create_cache_table.php' => 
   array (
-    'fileHash' => '61d635023428eaa5cc6f27e5b7f9683817125a50',
+    'fileHash' => '5a02437bdddb6e7d46632674dbf8e14fc55f4762',
     'dependentFiles' => 
     array (
     ),
   ),
-  'C:\\Users\\Em\\Herd\\portfolio26\\database\\migrations\\2025_08_26_100418_add_two_factor_columns_to_users_table.php' => 
+  'C:\\Users\\Em\\Herd\\ReactStart\\database\\migrations\\0001_01_01_000002_create_jobs_table.php' => 
   array (
-    'fileHash' => '83ea2d2e7a617063bb0428a40de8e9881a794b66',
+    'fileHash' => '88a00f07721afb291637d2d5ec4aefc6b827dee6',
     'dependentFiles' => 
     array (
     ),
   ),
-  'C:\\Users\\Em\\Herd\\portfolio26\\database\\seeders\\DatabaseSeeder.php' => 
+  'C:\\Users\\Em\\Herd\\ReactStart\\database\\migrations\\2025_08_26_100418_add_two_factor_columns_to_users_table.php' => 
   array (
-    'fileHash' => 'ad34f53c0643fb9646573bb91392a9daaf9edc6d',
+    'fileHash' => '0bdcaa5442ec1b15537aeed877cae5011eb0c171',
     'dependentFiles' => 
     array (
     ),
   ),
-  'C:\\Users\\Em\\Herd\\portfolio26\\public\\index.php' => 
+  'C:\\Users\\Em\\Herd\\ReactStart\\database\\seeders\\DatabaseSeeder.php' => 
   array (
-    'fileHash' => 'fb7f62e44d05f5423bf9e6b4ec56f8a54e041b80',
+    'fileHash' => '729ba9d666d261a06bfb8e1923ff43323b252d3c',
     'dependentFiles' => 
     array (
     ),
   ),
-  'C:\\Users\\Em\\Herd\\portfolio26\\routes\\console.php' => 
+  'C:\\Users\\Em\\Herd\\ReactStart\\public\\index.php' => 
   array (
-    'fileHash' => 'c22f7490650a2ff30fd8c21d92fb0b467a8d97b0',
+    'fileHash' => 'bce0ba7eb592f888ed84acd057f87e7de16c1ee4',
     'dependentFiles' => 
     array (
     ),
   ),
-  'C:\\Users\\Em\\Herd\\portfolio26\\routes\\settings.php' => 
+  'C:\\Users\\Em\\Herd\\ReactStart\\routes\\console.php' => 
   array (
-    'fileHash' => '2afc445177c23686de087e3cf9da9209e4c8fb44',
+    'fileHash' => '07b77c6afc0aa7b564129fbb8de8f9d9f667cf50',
     'dependentFiles' => 
     array (
     ),
   ),
-  'C:\\Users\\Em\\Herd\\portfolio26\\routes\\web.php' => 
+  'C:\\Users\\Em\\Herd\\ReactStart\\routes\\settings.php' => 
   array (
-    'fileHash' => 'c815f607fe9c5d848aa2449692209d53675c35cf',
+    'fileHash' => 'e60a1d87549a07005db9fd7298cd79ec1f64c94b',
+    'dependentFiles' => 
+    array (
+    ),
+  ),
+  'C:\\Users\\Em\\Herd\\ReactStart\\routes\\web.php' => 
+  array (
+    'fileHash' => '432c9c2d8d4c4fecf6c610bb4403ebd029441de0',
     'dependentFiles' => 
     array (
     ),
   ),
 ),
 	'exportedNodesCallback' => static function (): array { return array (
-  'C:\\Users\\Em\\Herd\\portfolio26\\app\\Actions\\Fortify\\CreateNewUser.php' => 
+  'C:\\Users\\Em\\Herd\\ReactStart\\app\\Actions\\Fortify\\CreateNewUser.php' => 
   array (
     0 => 
     \PHPStan\Dependency\ExportedNode\ExportedClassNode::__set_state(array(
@@ -2948,7 +2966,7 @@ return [
       ),
     )),
   ),
-  'C:\\Users\\Em\\Herd\\portfolio26\\app\\Actions\\Fortify\\PasswordValidationRules.php' => 
+  'C:\\Users\\Em\\Herd\\ReactStart\\app\\Actions\\Fortify\\PasswordValidationRules.php' => 
   array (
     0 => 
     \PHPStan\Dependency\ExportedNode\ExportedTraitNode::__set_state(array(
@@ -3001,7 +3019,7 @@ return [
       ),
     )),
   ),
-  'C:\\Users\\Em\\Herd\\portfolio26\\app\\Actions\\Fortify\\ResetUserPassword.php' => 
+  'C:\\Users\\Em\\Herd\\ReactStart\\app\\Actions\\Fortify\\ResetUserPassword.php' => 
   array (
     0 => 
     \PHPStan\Dependency\ExportedNode\ExportedClassNode::__set_state(array(
@@ -3086,7 +3104,7 @@ return [
       ),
     )),
   ),
-  'C:\\Users\\Em\\Herd\\portfolio26\\app\\Http\\Controllers\\Controller.php' => 
+  'C:\\Users\\Em\\Herd\\ReactStart\\app\\Http\\Controllers\\Controller.php' => 
   array (
     0 => 
     \PHPStan\Dependency\ExportedNode\ExportedClassNode::__set_state(array(
@@ -3112,7 +3130,7 @@ return [
       ),
     )),
   ),
-  'C:\\Users\\Em\\Herd\\portfolio26\\app\\Http\\Controllers\\Settings\\PasswordController.php' => 
+  'C:\\Users\\Em\\Herd\\ReactStart\\app\\Http\\Controllers\\Settings\\PasswordController.php' => 
   array (
     0 => 
     \PHPStan\Dependency\ExportedNode\ExportedClassNode::__set_state(array(
@@ -3221,7 +3239,7 @@ return [
       ),
     )),
   ),
-  'C:\\Users\\Em\\Herd\\portfolio26\\app\\Http\\Controllers\\Settings\\ProfileController.php' => 
+  'C:\\Users\\Em\\Herd\\ReactStart\\app\\Http\\Controllers\\Settings\\ProfileController.php' => 
   array (
     0 => 
     \PHPStan\Dependency\ExportedNode\ExportedClassNode::__set_state(array(
@@ -3394,7 +3412,7 @@ return [
       ),
     )),
   ),
-  'C:\\Users\\Em\\Herd\\portfolio26\\app\\Http\\Controllers\\Settings\\TwoFactorAuthenticationController.php' => 
+  'C:\\Users\\Em\\Herd\\ReactStart\\app\\Http\\Controllers\\Settings\\TwoFactorAuthenticationController.php' => 
   array (
     0 => 
     \PHPStan\Dependency\ExportedNode\ExportedClassNode::__set_state(array(
@@ -3506,7 +3524,7 @@ return [
       ),
     )),
   ),
-  'C:\\Users\\Em\\Herd\\portfolio26\\app\\Http\\Middleware\\HandleAppearance.php' => 
+  'C:\\Users\\Em\\Herd\\ReactStart\\app\\Http\\Middleware\\HandleAppearance.php' => 
   array (
     0 => 
     \PHPStan\Dependency\ExportedNode\ExportedClassNode::__set_state(array(
@@ -3534,7 +3552,7 @@ return [
              'phpDocString' => '/**
      * Handle an incoming request.
      *
-     * @param  \\Closure(\\Illuminate\\Http\\Request): (\\Symfony\\Component\\HttpFoundation\\Response)  $next
+     * @param  Closure(Request): (Response)  $next
      */',
              'namespace' => 'App\\Http\\Middleware',
              'uses' => 
@@ -3590,7 +3608,7 @@ return [
       ),
     )),
   ),
-  'C:\\Users\\Em\\Herd\\portfolio26\\app\\Http\\Middleware\\HandleInertiaRequests.php' => 
+  'C:\\Users\\Em\\Herd\\ReactStart\\app\\Http\\Middleware\\HandleInertiaRequests.php' => 
   array (
     0 => 
     \PHPStan\Dependency\ExportedNode\ExportedClassNode::__set_state(array(
@@ -3754,7 +3772,7 @@ return [
       ),
     )),
   ),
-  'C:\\Users\\Em\\Herd\\portfolio26\\app\\Http\\Requests\\Settings\\ProfileUpdateRequest.php' => 
+  'C:\\Users\\Em\\Herd\\ReactStart\\app\\Http\\Requests\\Settings\\ProfileUpdateRequest.php' => 
   array (
     0 => 
     \PHPStan\Dependency\ExportedNode\ExportedClassNode::__set_state(array(
@@ -3816,7 +3834,7 @@ return [
       ),
     )),
   ),
-  'C:\\Users\\Em\\Herd\\portfolio26\\app\\Http\\Requests\\Settings\\TwoFactorAuthenticationRequest.php' => 
+  'C:\\Users\\Em\\Herd\\ReactStart\\app\\Http\\Requests\\Settings\\TwoFactorAuthenticationRequest.php' => 
   array (
     0 => 
     \PHPStan\Dependency\ExportedNode\ExportedClassNode::__set_state(array(
@@ -3911,7 +3929,7 @@ return [
       ),
     )),
   ),
-  'C:\\Users\\Em\\Herd\\portfolio26\\app\\Models\\User.php' => 
+  'C:\\Users\\Em\\Herd\\ReactStart\\app\\Models\\User.php' => 
   array (
     0 => 
     \PHPStan\Dependency\ExportedNode\ExportedClassNode::__set_state(array(
@@ -4062,14 +4080,14 @@ return [
       ),
     )),
   ),
-  'C:\\Users\\Em\\Herd\\portfolio26\\app\\Providers\\AppServiceProvider.php' => 
+  'C:\\Users\\Em\\Herd\\ReactStart\\app\\Providers\\AppServiceProvider.php' => 
   array (
     0 => 
     \PHPStan\Dependency\ExportedNode\ExportedClassNode::__set_state(array(
        'name' => 'App\\Providers\\AppServiceProvider',
        'phpDoc' => NULL,
        'abstract' => false,
-       'final' => false,
+       'final' => true,
        'extends' => 'Illuminate\\Support\\ServiceProvider',
        'implements' => 
       array (
@@ -4093,6 +4111,12 @@ return [
              'namespace' => 'App\\Providers',
              'uses' => 
             array (
+              'carbonimmutable' => 'Carbon\\CarbonImmutable',
+              'model' => 'Illuminate\\Database\\Eloquent\\Model',
+              'date' => 'Illuminate\\Support\\Facades\\Date',
+              'db' => 'Illuminate\\Support\\Facades\\DB',
+              'url' => 'Illuminate\\Support\\Facades\\URL',
+              'vite' => 'Illuminate\\Support\\Facades\\Vite',
               'serviceprovider' => 'Illuminate\\Support\\ServiceProvider',
             ),
              'constUses' => 
@@ -4124,6 +4148,12 @@ return [
              'namespace' => 'App\\Providers',
              'uses' => 
             array (
+              'carbonimmutable' => 'Carbon\\CarbonImmutable',
+              'model' => 'Illuminate\\Database\\Eloquent\\Model',
+              'date' => 'Illuminate\\Support\\Facades\\Date',
+              'db' => 'Illuminate\\Support\\Facades\\DB',
+              'url' => 'Illuminate\\Support\\Facades\\URL',
+              'vite' => 'Illuminate\\Support\\Facades\\Vite',
               'serviceprovider' => 'Illuminate\\Support\\ServiceProvider',
             ),
              'constUses' => 
@@ -4150,7 +4180,7 @@ return [
       ),
     )),
   ),
-  'C:\\Users\\Em\\Herd\\portfolio26\\app\\Providers\\FortifyServiceProvider.php' => 
+  'C:\\Users\\Em\\Herd\\ReactStart\\app\\Providers\\FortifyServiceProvider.php' => 
   array (
     0 => 
     \PHPStan\Dependency\ExportedNode\ExportedClassNode::__set_state(array(
@@ -4256,7 +4286,7 @@ return [
       ),
     )),
   ),
-  'C:\\Users\\Em\\Herd\\portfolio26\\database\\factories\\UserFactory.php' => 
+  'C:\\Users\\Em\\Herd\\ReactStart\\database\\factories\\UserFactory.php' => 
   array (
     0 => 
     \PHPStan\Dependency\ExportedNode\ExportedClassNode::__set_state(array(
@@ -4433,7 +4463,7 @@ return [
       ),
     )),
   ),
-  'C:\\Users\\Em\\Herd\\portfolio26\\database\\seeders\\DatabaseSeeder.php' => 
+  'C:\\Users\\Em\\Herd\\ReactStart\\database\\seeders\\DatabaseSeeder.php' => 
   array (
     0 => 
     \PHPStan\Dependency\ExportedNode\ExportedClassNode::__set_state(array(

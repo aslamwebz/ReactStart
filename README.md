@@ -105,5 +105,5 @@ This project is open-source and available under the [MIT License](LICENSE).
 ---
 
 <div align="center">
-  Made with ❤️ by Your Name
+  Made with ❤️ by M Aslam
 </div>

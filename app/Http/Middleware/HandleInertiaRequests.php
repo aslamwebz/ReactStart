@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace App\Http\Middleware;
 
 use Illuminate\Foundation\Inspiring;
@@ -40,13 +42,13 @@ class HandleInertiaRequests extends Middleware
         $quote = Inspiring::quotes()->random();
         /** @var array{0: string, 1?: string} $quoteParts */
         $quoteParts = explode('-', $quote, 2);
-        $message = trim($quoteParts[0]);
-        $author = isset($quoteParts[1]) ? trim($quoteParts[1]) : '';
+        $message = mb_trim($quoteParts[0]);
+        $author = isset($quoteParts[1]) ? mb_trim($quoteParts[1]) : '';
 
         return [
             ...parent::share($request),
             'name' => config('app.name'),
-            'quote' => ['message' => trim($message), 'author' => trim($author)],
+            'quote' => ['message' => mb_trim($message), 'author' => mb_trim($author)],
             'auth' => [
                 'user' => $request->user(),
             ],

@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace App\Http\Requests\Settings;
 
 use App\Models\User;
@@ -16,7 +18,7 @@ class ProfileUpdateRequest extends FormRequest
      */
     public function rules(): array
     {
-        /** @var \App\Models\User $user */
+        /** @var User $user */
         $user = $this->user();
 
         return [
