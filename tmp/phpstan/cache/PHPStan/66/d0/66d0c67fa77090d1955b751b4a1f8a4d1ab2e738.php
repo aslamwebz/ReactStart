@@ -66,7 +66,7 @@ return \PHPStan\Cache\CacheItem::__set_state(array(
     ),
     'C:\\Users\\Em\\Herd\\portfolio26\\app\\Http\\Controllers\\Settings\\PasswordController.php' => 
     array (
-      0 => 'b5211bc168bb696b10a55be99975184dd84daf62',
+      0 => '9663ec7effa72d623cfc413b2013575814284c9d',
       1 => 
       array (
         0 => 'app\\http\\controllers\\settings\\passwordcontroller',
@@ -82,7 +82,7 @@ return \PHPStan\Cache\CacheItem::__set_state(array(
     ),
     'C:\\Users\\Em\\Herd\\portfolio26\\app\\Http\\Controllers\\Settings\\ProfileController.php' => 
     array (
-      0 => 'd142946b617fc8a12a23b8dabc90e45f45a7f215',
+      0 => '5d38a871bb45a6971b8e777bcc2092fbd4f8f44c',
       1 => 
       array (
         0 => 'app\\http\\controllers\\settings\\profilecontroller',
@@ -99,7 +99,7 @@ return \PHPStan\Cache\CacheItem::__set_state(array(
     ),
     'C:\\Users\\Em\\Herd\\portfolio26\\app\\Http\\Controllers\\Settings\\TwoFactorAuthenticationController.php' => 
     array (
-      0 => '4ee27b17a72f948a8fbc9d6502db8f8e390926df',
+      0 => 'b7e0ea1bbb3c143b8d0d9fb395db6c852df8b7b0',
       1 => 
       array (
         0 => 'app\\http\\controllers\\settings\\twofactorauthenticationcontroller',
@@ -130,7 +130,7 @@ return \PHPStan\Cache\CacheItem::__set_state(array(
     ),
     'C:\\Users\\Em\\Herd\\portfolio26\\app\\Http\\Middleware\\HandleInertiaRequests.php' => 
     array (
-      0 => 'c148cba70e3f2548e05afaada07175473095658f',
+      0 => '709af0fc4d8826107c190371ff2ec5ca5679a95c',
       1 => 
       array (
         0 => 'app\\http\\middleware\\handleinertiarequests',
@@ -146,7 +146,7 @@ return \PHPStan\Cache\CacheItem::__set_state(array(
     ),
     'C:\\Users\\Em\\Herd\\portfolio26\\app\\Http\\Requests\\Settings\\ProfileUpdateRequest.php' => 
     array (
-      0 => '9c34c528c2f9c9712e96d78ca208c95679fb2e5d',
+      0 => 'a1e61fa565b600f9e1b309972cdfce1e867c0ef1',
       1 => 
       array (
         0 => 'app\\http\\requests\\settings\\profileupdaterequest',
@@ -208,7 +208,7 @@ return \PHPStan\Cache\CacheItem::__set_state(array(
     ),
     'C:\\Users\\Em\\Herd\\portfolio26\\app\\Providers\\FortifyServiceProvider.php' => 
     array (
-      0 => '045c5bbce65290ce5b29d842081257ea1bc7401a',
+      0 => 'e6fa92df07d66f9ec9632087fb57dc34f485a87d',
       1 => 
       array (
         0 => 'app\\providers\\fortifyserviceprovider',

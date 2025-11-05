@@ -1,7 +1,7 @@
 <?php declare(strict_types = 1);
 
 return [
-	'lastFullAnalysisTime' => 1762347690,
+	'lastFullAnalysisTime' => 1762353306,
 	'meta' => array (
   'cacheVersion' => 'v12-linesToIgnore',
   'phpstanVersion' => '2.1.31',
@@ -2434,245 +2434,6 @@ return [
 	'projectExtensionFiles' => array (
 ),
 	'errorsCallback' => static function (): array { return array (
-  'C:\\Users\\Em\\Herd\\portfolio26\\app\\Http\\Controllers\\Settings\\PasswordController.php' => 
-  array (
-    0 => 
-    \PHPStan\Analyser\Error::__set_state(array(
-       'message' => 'Cannot call method update() on App\\Models\\User|null.',
-       'file' => 'C:\\Users\\Em\\Herd\\portfolio26\\app\\Http\\Controllers\\Settings\\PasswordController.php',
-       'line' => 32,
-       'canBeIgnored' => true,
-       'filePath' => 'C:\\Users\\Em\\Herd\\portfolio26\\app\\Http\\Controllers\\Settings\\PasswordController.php',
-       'traitFilePath' => NULL,
-       'tip' => NULL,
-       'nodeLine' => 32,
-       'nodeType' => 'PhpParser\\Node\\Expr\\MethodCall',
-       'identifier' => 'method.nonObject',
-       'metadata' => 
-      array (
-      ),
-       'fixedErrorDiff' => NULL,
-    )),
-    1 => 
-    \PHPStan\Analyser\Error::__set_state(array(
-       'message' => 'Cannot access offset \'password\' on mixed.',
-       'file' => 'C:\\Users\\Em\\Herd\\portfolio26\\app\\Http\\Controllers\\Settings\\PasswordController.php',
-       'line' => 33,
-       'canBeIgnored' => true,
-       'filePath' => 'C:\\Users\\Em\\Herd\\portfolio26\\app\\Http\\Controllers\\Settings\\PasswordController.php',
-       'traitFilePath' => NULL,
-       'tip' => NULL,
-       'nodeLine' => 33,
-       'nodeType' => 'PhpParser\\Node\\Expr\\ArrayDimFetch',
-       'identifier' => 'offsetAccess.nonOffsetAccessible',
-       'metadata' => 
-      array (
-      ),
-       'fixedErrorDiff' => NULL,
-    )),
-  ),
-  'C:\\Users\\Em\\Herd\\portfolio26\\app\\Http\\Controllers\\Settings\\ProfileController.php' => 
-  array (
-    0 => 
-    \PHPStan\Analyser\Error::__set_state(array(
-       'message' => 'Cannot call method fill() on App\\Models\\User|null.',
-       'file' => 'C:\\Users\\Em\\Herd\\portfolio26\\app\\Http\\Controllers\\Settings\\ProfileController.php',
-       'line' => 32,
-       'canBeIgnored' => true,
-       'filePath' => 'C:\\Users\\Em\\Herd\\portfolio26\\app\\Http\\Controllers\\Settings\\ProfileController.php',
-       'traitFilePath' => NULL,
-       'tip' => NULL,
-       'nodeLine' => 32,
-       'nodeType' => 'PhpParser\\Node\\Expr\\MethodCall',
-       'identifier' => 'method.nonObject',
-       'metadata' => 
-      array (
-      ),
-       'fixedErrorDiff' => NULL,
-    )),
-    1 => 
-    \PHPStan\Analyser\Error::__set_state(array(
-       'message' => 'Cannot call method isDirty() on App\\Models\\User|null.',
-       'file' => 'C:\\Users\\Em\\Herd\\portfolio26\\app\\Http\\Controllers\\Settings\\ProfileController.php',
-       'line' => 34,
-       'canBeIgnored' => true,
-       'filePath' => 'C:\\Users\\Em\\Herd\\portfolio26\\app\\Http\\Controllers\\Settings\\ProfileController.php',
-       'traitFilePath' => NULL,
-       'tip' => NULL,
-       'nodeLine' => 34,
-       'nodeType' => 'PhpParser\\Node\\Expr\\MethodCall',
-       'identifier' => 'method.nonObject',
-       'metadata' => 
-      array (
-      ),
-       'fixedErrorDiff' => NULL,
-    )),
-    2 => 
-    \PHPStan\Analyser\Error::__set_state(array(
-       'message' => 'Cannot access property $email_verified_at on App\\Models\\User|null.',
-       'file' => 'C:\\Users\\Em\\Herd\\portfolio26\\app\\Http\\Controllers\\Settings\\ProfileController.php',
-       'line' => 35,
-       'canBeIgnored' => true,
-       'filePath' => 'C:\\Users\\Em\\Herd\\portfolio26\\app\\Http\\Controllers\\Settings\\ProfileController.php',
-       'traitFilePath' => NULL,
-       'tip' => NULL,
-       'nodeLine' => 35,
-       'nodeType' => 'PHPStan\\Node\\PropertyAssignNode',
-       'identifier' => 'property.nonObject',
-       'metadata' => 
-      array (
-      ),
-       'fixedErrorDiff' => NULL,
-    )),
-    3 => 
-    \PHPStan\Analyser\Error::__set_state(array(
-       'message' => 'Cannot call method save() on App\\Models\\User|null.',
-       'file' => 'C:\\Users\\Em\\Herd\\portfolio26\\app\\Http\\Controllers\\Settings\\ProfileController.php',
-       'line' => 38,
-       'canBeIgnored' => true,
-       'filePath' => 'C:\\Users\\Em\\Herd\\portfolio26\\app\\Http\\Controllers\\Settings\\ProfileController.php',
-       'traitFilePath' => NULL,
-       'tip' => NULL,
-       'nodeLine' => 38,
-       'nodeType' => 'PhpParser\\Node\\Expr\\MethodCall',
-       'identifier' => 'method.nonObject',
-       'metadata' => 
-      array (
-      ),
-       'fixedErrorDiff' => NULL,
-    )),
-    4 => 
-    \PHPStan\Analyser\Error::__set_state(array(
-       'message' => 'Cannot call method delete() on App\\Models\\User|null.',
-       'file' => 'C:\\Users\\Em\\Herd\\portfolio26\\app\\Http\\Controllers\\Settings\\ProfileController.php',
-       'line' => 56,
-       'canBeIgnored' => true,
-       'filePath' => 'C:\\Users\\Em\\Herd\\portfolio26\\app\\Http\\Controllers\\Settings\\ProfileController.php',
-       'traitFilePath' => NULL,
-       'tip' => NULL,
-       'nodeLine' => 56,
-       'nodeType' => 'PhpParser\\Node\\Expr\\MethodCall',
-       'identifier' => 'method.nonObject',
-       'metadata' => 
-      array (
-      ),
-       'fixedErrorDiff' => NULL,
-    )),
-  ),
-  'C:\\Users\\Em\\Herd\\portfolio26\\app\\Http\\Controllers\\Settings\\TwoFactorAuthenticationController.php' => 
-  array (
-    0 => 
-    \PHPStan\Analyser\Error::__set_state(array(
-       'message' => 'Cannot call method hasEnabledTwoFactorAuthentication() on App\\Models\\User|null.',
-       'file' => 'C:\\Users\\Em\\Herd\\portfolio26\\app\\Http\\Controllers\\Settings\\TwoFactorAuthenticationController.php',
-       'line' => 33,
-       'canBeIgnored' => true,
-       'filePath' => 'C:\\Users\\Em\\Herd\\portfolio26\\app\\Http\\Controllers\\Settings\\TwoFactorAuthenticationController.php',
-       'traitFilePath' => NULL,
-       'tip' => NULL,
-       'nodeLine' => 33,
-       'nodeType' => 'PhpParser\\Node\\Expr\\MethodCall',
-       'identifier' => 'method.nonObject',
-       'metadata' => 
-      array (
-      ),
-       'fixedErrorDiff' => NULL,
-    )),
-  ),
-  'C:\\Users\\Em\\Herd\\portfolio26\\app\\Http\\Middleware\\HandleInertiaRequests.php' => 
-  array (
-    0 => 
-    \PHPStan\Analyser\Error::__set_state(array(
-       'message' => 'Parameter #1 $string of function str expects string|null, mixed given.',
-       'file' => 'C:\\Users\\Em\\Herd\\portfolio26\\app\\Http\\Middleware\\HandleInertiaRequests.php',
-       'line' => 39,
-       'canBeIgnored' => true,
-       'filePath' => 'C:\\Users\\Em\\Herd\\portfolio26\\app\\Http\\Middleware\\HandleInertiaRequests.php',
-       'traitFilePath' => NULL,
-       'tip' => NULL,
-       'nodeLine' => 39,
-       'nodeType' => 'PhpParser\\Node\\Expr\\FuncCall',
-       'identifier' => 'argument.type',
-       'metadata' => 
-      array (
-      ),
-       'fixedErrorDiff' => NULL,
-    )),
-    1 => 
-    \PHPStan\Analyser\Error::__set_state(array(
-       'message' => 'Parameter #1 $string of function trim expects string, string|null given.',
-       'file' => 'C:\\Users\\Em\\Herd\\portfolio26\\app\\Http\\Middleware\\HandleInertiaRequests.php',
-       'line' => 44,
-       'canBeIgnored' => true,
-       'filePath' => 'C:\\Users\\Em\\Herd\\portfolio26\\app\\Http\\Middleware\\HandleInertiaRequests.php',
-       'traitFilePath' => NULL,
-       'tip' => NULL,
-       'nodeLine' => 44,
-       'nodeType' => 'PhpParser\\Node\\Expr\\FuncCall',
-       'identifier' => 'argument.type',
-       'metadata' => 
-      array (
-      ),
-       'fixedErrorDiff' => NULL,
-    )),
-    2 => 
-    \PHPStan\Analyser\Error::__set_state(array(
-       'message' => 'Parameter #1 $string of function trim expects string, string|null given.',
-       'file' => 'C:\\Users\\Em\\Herd\\portfolio26\\app\\Http\\Middleware\\HandleInertiaRequests.php',
-       'line' => 44,
-       'canBeIgnored' => true,
-       'filePath' => 'C:\\Users\\Em\\Herd\\portfolio26\\app\\Http\\Middleware\\HandleInertiaRequests.php',
-       'traitFilePath' => NULL,
-       'tip' => NULL,
-       'nodeLine' => 44,
-       'nodeType' => 'PhpParser\\Node\\Expr\\FuncCall',
-       'identifier' => 'argument.type',
-       'metadata' => 
-      array (
-      ),
-       'fixedErrorDiff' => NULL,
-    )),
-  ),
-  'C:\\Users\\Em\\Herd\\portfolio26\\app\\Http\\Requests\\Settings\\ProfileUpdateRequest.php' => 
-  array (
-    0 => 
-    \PHPStan\Analyser\Error::__set_state(array(
-       'message' => 'Cannot access property $id on App\\Models\\User|null.',
-       'file' => 'C:\\Users\\Em\\Herd\\portfolio26\\app\\Http\\Requests\\Settings\\ProfileUpdateRequest.php',
-       'line' => 28,
-       'canBeIgnored' => true,
-       'filePath' => 'C:\\Users\\Em\\Herd\\portfolio26\\app\\Http\\Requests\\Settings\\ProfileUpdateRequest.php',
-       'traitFilePath' => NULL,
-       'tip' => NULL,
-       'nodeLine' => 28,
-       'nodeType' => 'PhpParser\\Node\\Expr\\PropertyFetch',
-       'identifier' => 'property.nonObject',
-       'metadata' => 
-      array (
-      ),
-       'fixedErrorDiff' => NULL,
-    )),
-  ),
-  'C:\\Users\\Em\\Herd\\portfolio26\\app\\Providers\\FortifyServiceProvider.php' => 
-  array (
-    0 => 
-    \PHPStan\Analyser\Error::__set_state(array(
-       'message' => 'Parameter #1 $value of static method Illuminate\\Support\\Str::lower() expects string, mixed given.',
-       'file' => 'C:\\Users\\Em\\Herd\\portfolio26\\app\\Providers\\FortifyServiceProvider.php',
-       'line' => 86,
-       'canBeIgnored' => true,
-       'filePath' => 'C:\\Users\\Em\\Herd\\portfolio26\\app\\Providers\\FortifyServiceProvider.php',
-       'traitFilePath' => NULL,
-       'tip' => NULL,
-       'nodeLine' => 86,
-       'nodeType' => 'PhpParser\\Node\\Expr\\StaticCall',
-       'identifier' => 'argument.type',
-       'metadata' => 
-      array (
-      ),
-       'fixedErrorDiff' => NULL,
-    )),
-  ),
 ); },
 	'locallyIgnoredErrorsCallback' => static function (): array { return array (
 ); },
@@ -2863,7 +2624,7 @@ return [
   ),
   'C:\\Users\\Em\\Herd\\portfolio26\\app\\Http\\Controllers\\Settings\\PasswordController.php' => 
   array (
-    'fileHash' => 'b5211bc168bb696b10a55be99975184dd84daf62',
+    'fileHash' => '9663ec7effa72d623cfc413b2013575814284c9d',
     'dependentFiles' => 
     array (
       0 => 'C:\\Users\\Em\\Herd\\portfolio26\\routes\\settings.php',
@@ -2871,7 +2632,7 @@ return [
   ),
   'C:\\Users\\Em\\Herd\\portfolio26\\app\\Http\\Controllers\\Settings\\ProfileController.php' => 
   array (
-    'fileHash' => 'd142946b617fc8a12a23b8dabc90e45f45a7f215',
+    'fileHash' => '5d38a871bb45a6971b8e777bcc2092fbd4f8f44c',
     'dependentFiles' => 
     array (
       0 => 'C:\\Users\\Em\\Herd\\portfolio26\\routes\\settings.php',
@@ -2879,7 +2640,7 @@ return [
   ),
   'C:\\Users\\Em\\Herd\\portfolio26\\app\\Http\\Controllers\\Settings\\TwoFactorAuthenticationController.php' => 
   array (
-    'fileHash' => '4ee27b17a72f948a8fbc9d6502db8f8e390926df',
+    'fileHash' => 'b7e0ea1bbb3c143b8d0d9fb395db6c852df8b7b0',
     'dependentFiles' => 
     array (
       0 => 'C:\\Users\\Em\\Herd\\portfolio26\\routes\\settings.php',
@@ -2895,7 +2656,7 @@ return [
   ),
   'C:\\Users\\Em\\Herd\\portfolio26\\app\\Http\\Middleware\\HandleInertiaRequests.php' => 
   array (
-    'fileHash' => 'c148cba70e3f2548e05afaada07175473095658f',
+    'fileHash' => '709af0fc4d8826107c190371ff2ec5ca5679a95c',
     'dependentFiles' => 
     array (
       0 => 'C:\\Users\\Em\\Herd\\portfolio26\\bootstrap\\app.php',
@@ -2903,7 +2664,7 @@ return [
   ),
   'C:\\Users\\Em\\Herd\\portfolio26\\app\\Http\\Requests\\Settings\\ProfileUpdateRequest.php' => 
   array (
-    'fileHash' => '9c34c528c2f9c9712e96d78ca208c95679fb2e5d',
+    'fileHash' => 'a1e61fa565b600f9e1b309972cdfce1e867c0ef1',
     'dependentFiles' => 
     array (
       0 => 'C:\\Users\\Em\\Herd\\portfolio26\\app\\Http\\Controllers\\Settings\\ProfileController.php',
@@ -2943,7 +2704,7 @@ return [
   ),
   'C:\\Users\\Em\\Herd\\portfolio26\\app\\Providers\\FortifyServiceProvider.php' => 
   array (
-    'fileHash' => '045c5bbce65290ce5b29d842081257ea1bc7401a',
+    'fileHash' => 'e6fa92df07d66f9ec9632087fb57dc34f485a87d',
     'dependentFiles' => 
     array (
     ),
