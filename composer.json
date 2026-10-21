@@ -88,6 +88,7 @@
             "npm run lint"
         ],
         "test:type-coverage": "pest --type-coverage --min=100",
+        "test:browser": "pest tests/Browser",
         "test:lint": [
             "pint --parallel --test",
             "rector --dry-run",
