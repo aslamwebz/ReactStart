@@ -3,10 +3,12 @@ name: tests
 on:
   push:
     branches:
+      - chore/upgrade-2026
       - develop
       - main
   pull_request:
     branches:
+      - chore/upgrade-2026
       - develop
       - main
 
